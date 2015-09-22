@@ -8,8 +8,7 @@ use DateTime::Format::ISO8601;
 use YAML::XS qw/Dump/;
 use Iso;
 
-my $max_items = 20;
-my $verbose = 1;
+my $max_items = -1;
 my $example = 0;
 my $dump_meta1 = 0;
 my $dump_meta2 = 0;
@@ -18,30 +17,22 @@ my $ckan_url = $base_url.'api/3/action/';
 my $wcs_url = $base_url.'csw-all/';
 
 my %d;
-# my $ex = 'C1178-NSIDCV0';
-my $ex = 'C1178-NSIDCV0__1';
+my $ex = 'C1178-NSIDCV0';
+# my $ex = 'C1178-NSIDCV0__1';
 
 if (!$example) {
     %d = get_group($ckan_url, 'climate5434');
 } else {
     $d{$ex} = 
-        { identifier => $ex, 
+        { idAgency => $ex, 
           title => 'Arctic Sea Ice Freeboard and Thickness',
         };
 }
 
 my @n;
-my $i = 0;
 for (keys %d) {
     my $b = %d{$_};
-
-    say " k : $_\n".Dumper($b);
-
     push @n, get_meta($wcs_url, \%{ $b });
-
-    say " n :\n".Dumper($n[$i]);
-    $i++;
-    exit if $i > 10;
 }
 say Dump(\@n);
 
@@ -66,13 +57,14 @@ sub get_group {
       for (@{ $r }) {
           # say " r :\n".Dumper($_);
           my $v = \%{ $d{$_->{id}} };
-          $v->{identifier} = get_id($_);
-          for my $i (qw(id title name)) {
+          $v->{idDataGov} = $_->{id};
+          $v->{idAgency} = get_id_agency($_);
+          for my $i (qw(title name)) {
               next unless $_->{$i};
               $v->{$i} = $_->{$i};
           }
-          if ($_->{_organization}->{title}) {
-              $v->{_organization} = $_->{_organization}->{title};
+          if ($_->{organization}->{title}) {
+              $v->{organization} = $_->{organization}->{title};
           }
           my $e = $_->{extras};
           get_extent($e, $v);
@@ -280,7 +272,7 @@ sub get_temporal {
     return \%t;
 }
  
-sub get_id {
+sub get_id_agency {
     my $d = shift;
     for my $v (@{ $d->{extras} }) {
          for (qw(guid identifier)) {
@@ -295,21 +287,7 @@ sub get_meta {
     my ($u, $d) = @_;
 
     my %v;
-
-    my %ckan = (
-        identifier =>   '',
-        title =>        '', 
-        organization => '',
-        bureauCode =>   '_bureau_code',
-        programCode =>  '_program_code', 
-        landingPage =>  '_landing_page', 
-        describedBy =>  '_described_by',
-        );
-    for (keys %ckan) {
-        next unless $d->{$_};
-        my $k = $ckan{$_} ? $ckan{$_} : "_".$_;
-        $v{$k} = $d->{$_};
-    }
+    $v{_ckan}->{$_} = $d->{$_} for keys %{ $d };
 
     my $ua = Mojo::UserAgent->new;
     $ua->max_redirects(3);
@@ -342,11 +320,12 @@ sub get_meta {
     my $r;
     my $n = 0;
 
-    for (qw(identifier title)) {
+    my %prop = (idAgency => 'identifier', title => 'title');
+    for (keys %prop) {
         next unless $d->{$_};
         my $f = 
             '<ogc:PropertyIsEqualTo>
-               <ogc:PropertyName>dc:'.$_.'</ogc:PropertyName>
+               <ogc:PropertyName>dc:'.$prop{$_}.'</ogc:PropertyName>
                <ogc:Literal>'.$d->{$_}.'</ogc:Literal>
              </ogc:PropertyIsEqualTo>';
         my $p = $p2_prefix.$f.$p2_suffix;
@@ -368,7 +347,7 @@ sub get_meta {
         last if $n == 1;
     }
     if ($n != 1) {
-        $v{_number_of_matches} = $n;
+        $v{_ckan}->{numberOfMatches} = $n;
         return \%v;
     }
 
@@ -379,9 +358,17 @@ sub get_meta {
         children($r1, 0);
     }
 
-    my $s = Iso->set_dom($r1);
+    my $s = Iso->set_dom($r1, $d->{idAgency});
     my $v1 = $s->get_meta;
     @v{keys %$v1} = values %$v1;
+
+    for my $e (qw(spatial temporal)) {
+        next unless $v{_ckan}->{$e};
+        for (keys %{ $v{_ckan}->{$e} }) {
+            next if $v{$_};
+            $v{$_} = $v{_ckan}->{$e}->{$_};
+        }
+    }
 
     fix_poc(\%v);
 
