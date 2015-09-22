@@ -6,7 +6,7 @@ use YAML::XS qw/Dump Load/;
 use Data::Dumper;
 use v5.20.1;
 
-my $max_iter = 20;
+my $max_iter = -1;
 my $url = qq(http://data-stage.globalchange.gov);
 my @nasa_org = qw(NSIDC GESDISC LPDAAC ORNL_DAAC LAADS);
 
@@ -19,7 +19,7 @@ my @ex = qw(
     C197265171-LPDAAC_ECS
     );
 
-my $compare_say_same = 1;
+my $compare_say_same = 0;
 
 my $yml = do { local $/; <> };
 my $l = Load($yml);
@@ -30,7 +30,7 @@ my $g = Gcis::Client->new(url => $url);
 
 for (@{ $l }) {
     my $i = $_->{_identifier};
-    next unless grep $i eq $_, @ex;
+    # next unless grep $i eq $_, @ex;
     # say " l :\n".Dumper($_);
     my $o = $_->{_poc_org};
     next unless grep $o eq $_, @nasa_org;
@@ -39,6 +39,7 @@ for (@{ $l }) {
         say " $_->{uri} not found";
         next;
     };
+ 
     my $c = compare($_, $d);
     my $co = compare_org($_, $d);
 
@@ -70,6 +71,9 @@ sub compare {
 
     for (keys %$b) {
         next if $_ =~ /^_/;
+        my $k = $_;
+        next if grep $k eq $_, qw(href aliases contributors 
+                                  organization instrument_measurements);
         next if $a->{$_};
         next unless defined $b->{$_};
         if (ref $b->{$_} eq 'ARRAY') {
