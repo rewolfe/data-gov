@@ -19,12 +19,11 @@ my $m_hi = 'gmi\:identifier > gmd\:MD_Identifier >%
             gmd\:code > '.$m_cs.' >% gmd\:description > '.$m_cs;
 
 my $map_iso = {
-    # identifier   => 'header identifier',
     _id          => $m_ci.'gmd\:identifier >@ gmd\:MD_Identifier >% 
                            gmd\:description > '.$m_cs.' >% 
                            gmd\:code > '.$m_cs, 
     native_id    => 'gmd\:fileIdentifier > '.$m_cs,
-    _name        => $m_ci.'gmd\:title > '.$m_cs,
+    name         => $m_ci.'gmd\:title > '.$m_cs,
     description  => $m_id.'gmd\:abstract > '.$m_cs,
     _url1        => $m_ci.'gmd\:citedResponsibleParty >
                     gmd\:CI_ResponsibleParty > gmd\:contactInfo >
@@ -33,7 +32,6 @@ my $map_iso = {
     _url2        => $m_di.'gmd\:distributorTransferOptions > 
                     gmd\:MD_DigitalTransferOptions > gmd\:onLine > 
                     gmd\:CI_OnlineResource > gmd\:linkage > gmd\:URL',
-    # doi          => 'Data_Set_Citation',
     lat_min      => $m_gx.'gmd\:southBoundLatitude > '.$m_dc,
     lat_max      => $m_gx.'gmd\:northBoundLatitude > '.$m_dc,
     lon_min      => $m_gx.'gmd\:westBoundLongitude > '.$m_dc,
@@ -48,26 +46,6 @@ my $map_iso = {
     _instrument_eos => $m_ai.'gmi\:instrument >@ eos\:EOS_Instrument > '.$m_hi,
     _platform_eos => $m_ai.'gmi\:platform >@ eos\:EOS_Platform > '.$m_hi,
     };
-
-my %org_map = (
-    GESDISC => 'goddard-earth-sciences-data-information-services-center', 
-    LAADS => 'level1-atmosphere-archive-distribution-system', 
-    LaRC => 'atmospheric-science-data-center', 
-    LPDAAC => 'land-processes-distributed-active-archive-center', 
-    NSIDC => 'national-snow-ice-data-center-distributed-active-archive-center',
-    ORNL_DAAC => 'oak-ridge-national-laboratory-distributed-active-archive-center',
-    SEDAC => 'socioeconomic-data-applications-center', 
-    );
-
-my %id_map = (
-    GESDISC => 'gesdisc', 
-    LAADS => 'laads', 
-    LaRC => 'asdc', 
-    LPDAAC => 'lpdaac', 
-    NSIDC => 'nsidcdaac', 
-    ORNL_DAAC => 'ornldaac', 
-    SEDAC => 'sedac',
-    );
 
 sub new {
     my $class = shift;
@@ -176,56 +154,3 @@ sub _get_hash {
     $h{$k} = $t->text;
     return \%h;
 }
-
-sub get_org {
-     my $s = shift;
-     my $p = shift or return;
-
-     my $v = $p->{_poc_org} or return;
-     my $o = $org_map{$v} or return;
-     $p->{_organization} = "/organization/$o";
-     return;
-}
-
-sub get_id {
-     my $s = shift;
-     my $p = shift or return;
-
-     my $v = $p->{_name} or return;
-     $p->{name} = $v;
-     my $o = $p->{_poc_org} or return;
-     return unless $org_map{$o};
-     return unless $v =~ / *> */;
-
-     my ($i, $n) = split / *> */, $v;
-
-     $p->{_echo_id} = $p->{native_id};
-     $p->{native_id} = $p->{_id}->{DIFEntryId};
-     if ($o eq 'NSIDC') {
-         if ($i =~ /-\d+$/) {
-             $i =~ s/.*-(\d+)$/$1/;
-         } else {
-             if (!$p->{native_id}) {
-                 $p->{native_id} = $i;
-             }
-             $i = lc $i;
-         }
-     } elsif ($o eq 'ORNL_DAAC') {
-         $p->{doi} = ($i =~ s/^doi://r);
-         $i =~ s/.*\/(\d+)$/$1/;
-     } elsif ($o eq 'GESDISC') {
-         $i = lc ($p->{_id}->{DIFEntryId} =~ s/^GES_DISC_//r);
-     } elsif (grep $o eq $_, qw(LPDAAC LAADS)) {
-         $i = $p->{native_id} ? lc $p->{native_id} : lc $i;
-     }
-     my $dn = 'identifier_product_doi - Digital object identifier that uniquely identifies this data product';
-     my $d = $p->{_id}->{$dn};
-     $p->{doi} = $d if $d;
-     $p->{identifier} = 'nasa-'.$id_map{$o}.'-'.$i;
-     $p->{name} = $n;
-     $p->{uri} = "/dataset/$p->{identifier}";
-
-
-     return;
-}
-
