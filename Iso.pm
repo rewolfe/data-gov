@@ -1,6 +1,6 @@
 package Iso;
 
-use v5.20.1;
+use v5.18.2;
 use Mojo::UserAgent;
 use Data::Dumper;
 

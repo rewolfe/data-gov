@@ -4,10 +4,10 @@ use Gcis::Client;
 use Iso;
 use YAML::XS qw/Dump Load/;
 use Data::Dumper;
-use v5.20.1;
+use v5.18.2;
 
 my $max_iter = -1;
-my $url = qq(http://data-stage.globalchange.gov);
+my $url = qq(http://data.globalchange.gov);
 my @nasa_org = qw(NSIDC GESDISC LPDAAC ORNL_DAAC LAADS);
 
 my @ex = qw(

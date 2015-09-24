@@ -4,7 +4,7 @@ use Gcis::Client;
 use Iso;
 use YAML::XS qw/Dump Load/;
 use Data::Dumper;
-use v5.20.1;
+use v5.18.1;
 
 my $max_iter = -1;
 
