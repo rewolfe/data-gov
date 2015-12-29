@@ -19,7 +19,7 @@ my @ex = qw(
     C197265171-LPDAAC_ECS
     );
 
-my $compare_say_same = 0;
+my $compare_say_same = 1;
 
 my $yml = do { local $/; <> };
 my $l = Load($yml);
@@ -30,7 +30,7 @@ my $g = Gcis::Client->new(url => $url);
 
 for (@{ $l }) {
     my $i = $_->{_identifier};
-    # next unless grep $i eq $_, @ex;
+    next unless grep $i eq $_, @ex;
     # say " l :\n".Dumper($_);
     my $o = $_->{_poc_org};
     next unless grep $o eq $_, @nasa_org;
@@ -39,9 +39,11 @@ for (@{ $l }) {
         say " $_->{uri} not found";
         next;
     };
+    # say " d :\n".Dumper($d);
  
     my $c = compare($_, $d);
     my $co = compare_org($_, $d);
+    $c->{$_} = $co->{$_} for keys %$co;
 
     $c->{nasa_id} = $i;
     push @m, $c;
@@ -73,7 +75,7 @@ sub compare {
         next if $_ =~ /^_/;
         my $k = $_;
         next if grep $k eq $_, qw(href aliases contributors 
-                                  organization instrument_measurements);
+                                  instrument_measurements);
         next if $a->{$_};
         next unless defined $b->{$_};
         if (ref $b->{$_} eq 'ARRAY') {
@@ -119,8 +121,30 @@ sub compare_org {
     my ($a, $b) = @_;
     my %c;
 
-    my $oa = $a->{_organization};
+    my $oa = $a->{_organization_uri};
+    my $cb = $b->{contributors};
+
     my $ob;
+    for (@$cb) {
+        if ($ob) {
+            say " error - more than one org b";
+            next;
+        }
+        # say " con b:\n".Dumper($_);
+        $ob = $_->{organization_uri};
+        say " error - have person uri in org b" if $_->{person_uri};
+    }
+    my $v;
+    if ($oa && !$ob) {
+        $v = {only_a => $oa};
+    } elsif (!$oa && $ob) {
+        $v = {only_b => $oa};
+    } elsif ($oa ne $ob) {
+        $v = {diff_a => $oa, diff_b => $ob};
+    } elsif ($compare_say_same) {
+        $v = {same => $oa};
+    }
+    $c{organization} = $v if $v;
     
     return %c ? \%c : 0;
 }

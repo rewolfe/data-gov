@@ -8,7 +8,7 @@
     ANALYSIS: ANALYSIS
     EDDY CORRELATION APPARATUS: EDDY CORRELATION APPARATUS
     GAS EXCHANGE SYSTEM: GAS EXCHANGE SYSTEM
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
     FIELD INVESTIGATION: FIELD INVESTIGATION
@@ -49,7 +49,7 @@
     DIFEntryId: GES_DISC_NLDAS_NOAH0125_H_V002
     NLDAS Noah Land Surface Model L4 Hourly 0.125 x 0.125 degree: NLDAS_NOAH0125_H
   _identifier: C196280696-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -95,7 +95,7 @@
   _identifier: C1000000024-LANCEMODIS
   _instrument_eos:
     MODIS: Moderate-Resolution Imaging Spectroradiometer
-  _organization: /organization/level1-atmosphere-archive-distribution-system
+  _organization_uri: /organization/level1-atmosphere-archive-distribution-system
   _platform_eos:
     Aqua: Aqua EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: LAADS
@@ -119,7 +119,7 @@
   _identifier: C1000000760-NSIDC_ECS
   _instrument_eos:
     LVIS: Land, Vegetation, and Ice Sensor
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     B-200: Beechcraft King Air B-200
     C-130: Lockheed C-130 Hercules
@@ -156,7 +156,7 @@
     THERMISTORS: Undefined
     THERMOMETERS: Undefined
     WATER BOTTLES: Undefined
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AIRCRAFT: Undefined
     BUOYS: Undefined
@@ -204,7 +204,7 @@
     Comprehensive Ocean - Atmosphere Data Set (COADS) LMRF Arctic Subset: NSIDC-0057
     DIFEntryId: NSIDC-0057
   _identifier: C1041-NSIDCV0
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _poc_org: NSIDC
   _url2: http://nsidc.org/data/NSIDC-0057
   description: 'The Comprehensive Ocean - Atmosphere Data Set (COADS) LMRF Arctic
@@ -247,7 +247,7 @@
   _identifier: C66215276-LARC
   _instrument_eos:
     MISR: Multi-Angle Imaging SpectroRadiometer
-  _organization: /organization/atmospheric-science-data-center
+  _organization_uri: /organization/atmospheric-science-data-center
   _platform_eos:
     AM-1: First EOS Polar Orbiting Satellite, 10:30 AM Descending Equator Crossing
   _poc_org: LaRC
@@ -275,7 +275,7 @@
   _identifier: C1000000920-NSIDC_ECS
   _instrument_eos:
     MCoRDS: Multichannel Coherent Radar Depth Sounder
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -301,7 +301,7 @@
   _identifier: C179014688-NSIDC_ECS
   _instrument_eos:
     AMSR-E: Advanced Microwave Scanning Radiometer-EOS
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     Aqua: First EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: NSIDC
@@ -337,7 +337,7 @@
     HYGROMETERS: Undefined
     LASER SPECTROMETER: Undefined
     WAS: Whole Air Sampler
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AIRCRAFT: Undefined
     DC-8: Douglas DC-8
@@ -370,7 +370,7 @@
     DIFEntryId: GES_DISC_NLDAS_FORB0125_H_V002
     NLDAS Secondary Forcing Data L4 Hourly 0.125 x 0.125 degree: NLDAS_FORB0125_H
   _identifier: C195219450-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -418,7 +418,7 @@
     DIFEntryId: NSIDC-0063
     Global Annual Freezing and Thawing Indices: NSIDC-0063
   _identifier: C1360-NSIDCV0
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _poc_org: NSIDC
   _url2: http://nsidc.org/data/NSIDC-0063/versions/1
   description: The total annual freezing and thawing indices are defined as the cumulative
@@ -458,7 +458,7 @@
     PRESSURE TRANSDUCERS: Undefined
     PYROMETERS: Undefined
     TEMPERATURE SENSORS: Undefined
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AIRCRAFT: Undefined
     DC-8: Douglas DC-8
@@ -491,7 +491,7 @@
     DIFEntryId: GES_DISC_NLDAS_FORB0125_M_V002
     NLDAS Secondary Forcing Data L4 Monthly 0.125 x 0.125 degree: NLDAS_FORB0125_M
   _identifier: C198943240-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -535,7 +535,7 @@
   _instrument:
     MCoRDS: Multichannel Coherent Radar Depth Sounder
     RADAR ECHO SOUNDERS: Undefined
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AIRCRAFT: Undefined
     DC-8: Douglas DC-8
@@ -562,7 +562,7 @@
   _identifier: C187539421-NSIDC_ECS
   _instrument_eos:
     DMS: Digital Mapping System
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     C-130: Lockheed C-130 Hercules
     DC-8: Douglas DC-8
@@ -590,7 +590,7 @@
   _identifier: C1000000320-NSIDC_ECS
   _instrument_eos:
     ATM: Airborne Topographic Mapper
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     P-3A: Lockheed P-3A Orion
@@ -620,7 +620,7 @@
   _identifier: C179003537-ORNL_DAAC
   _instrument_eos:
     ANALYSIS: ANALYSIS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
   _poc_org: ORNL_DAAC
@@ -659,7 +659,7 @@
   _identifier: C1028-NSIDCV0
   _instrument:
     SMMR: Scanning Multichannel Microwave Radiometer
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     NIMBUS-7: Undefined
   _poc_org: NSIDC
@@ -704,7 +704,7 @@
   _identifier: C1000000180-NSIDC_ECS
   _instrument_eos:
     Snow Radar: Wide-band Snow Depth Radar
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -739,7 +739,7 @@
   _identifier: C1000000600-NSIDC_ECS
   _instrument_eos:
     Accumulation Radar: Accumulation Radar
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     DHC-6: DeHavilland Twin Otter
@@ -774,7 +774,7 @@
   _identifier: C1000000561-NSIDC_ECS
   _instrument_eos:
     AMSR-E: Advanced Microwave Scanning Radiometer-EOS
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     Aqua: First EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: NSIDC
@@ -805,7 +805,7 @@
   _instrument:
     GLAS: Geoscience Laser Altimeter System
     SSM/I: Special Sensor Microwave/Imager
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     DMSP: Defense Meteorological Satellite Program
     ICESAT: Ice, Cloud and Land Elevation Satellite
@@ -844,7 +844,7 @@
   _identifier: C1031-NSIDCV0
   _instrument:
     SSM/I: Special Sensor Microwave/Imager
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     DMSP 5D-2/F8: Defense Meteorological Satellite Program-F8
   _poc_org: NSIDC
@@ -876,7 +876,7 @@
     DIFEntryId: GES_DISC_NLDAS_FOR0125_MC_V001
     NLDAS Forcing Data L4 Monthly Climatology 0.125 x 0.125 degree: NLDAS_FOR0125_MC
   _identifier: C199663431-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -915,7 +915,7 @@
   _identifier: C190766021-NSIDC_ECS
   _instrument_eos:
     AIRGrav: Sander/LDEO Airborne Inertially Referenced Gravimeter
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -942,7 +942,7 @@
     DIFEntryId: GES_DISC_NLDAS_VIC0125_MC_V002
     NLDAS VIC Land Surface Model L4 Monthly Climatology 0.125 x 0.125 degree: NLDAS_VIC0125_MC
   _identifier: C211017963-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -986,7 +986,7 @@
   _identifier: C1188-NSIDCV0
   _instrument:
     RAWINSONDES: Undefined
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     BALLOONS: Undefined
     GROUND STATIONS: Undefined
@@ -1032,7 +1032,7 @@
   _instrument_eos:
     GLAS: Geoscience Laser Altimeter System
     GPS: Global Positioning System Receiver
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     ICESat: Ice, Cloud, and Land Elevation Satellite
   _poc_org: NSIDC
@@ -1063,7 +1063,7 @@
   _identifier: C179003657-ORNL_DAAC
   _instrument_eos:
     SOIL GAS CHAMBER: SOIL GAS CHAMBER
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     FIELD INVESTIGATION: FIELD INVESTIGATION
   _poc_org: ORNL_DAAC
@@ -1105,7 +1105,7 @@
   _identifier: C1000000100-LARC
   _instrument_eos:
     MISR: Multi-Angle Imaging SpectroRadiometer
-  _organization: /organization/atmospheric-science-data-center
+  _organization_uri: /organization/atmospheric-science-data-center
   _platform_eos:
     AM-1: First EOS Polar Orbiting Satellite, 10:30 AM Descending Equator Crossing
   _poc_org: LaRC
@@ -1132,7 +1132,7 @@
   _identifier: C1000000940-NSIDC_ECS
   _instrument_eos:
     Ku-Band Radar: Ku-Band Radar Altimeter
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -1156,7 +1156,7 @@
   _instrument:
     ALTIMETERS: Undefined
     UTIG Riegl: University of Texas Riegl LD90-3800 HiP-LR Laser Altimeter
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AIRCRAFT: Undefined
     BT-67: Basler BT-67
@@ -1172,8 +1172,8 @@
     text format and are available via FTP for periodic, ongoing campaigns from 09
     November 2009 to the present.
   identifier: nasa-nsidcdaac-ilutp1b
-  lat_max: '-53'
-  lat_min: '-90'
+  lat_max: '90'
+  lat_min: '60'
   lon_max: '180'
   lon_min: '-180'
   name: IceBridge Riegl Laser Altimeter L1B Time-Tagged Laser Ranges
@@ -1189,7 +1189,7 @@
   _identifier: C3221-NSIDCV0
   _instrument:
     ATM: Airborne Topographic Mapper
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -1201,8 +1201,8 @@
     aircraft survey campaigns, are stored in binary format, and are available via
     FTP for periodic, ongoing campaigns from 16 October 2009 to the present.
   identifier: nasa-nsidcdaac-ilatm0
-  lat_max: '-53'
-  lat_min: '-90'
+  lat_max: '90'
+  lat_min: '60'
   lon_max: '180'
   lon_min: '-180'
   name: IceBridge ATM L0 Raw Ranges
@@ -1218,7 +1218,7 @@
   _identifier: C3661-NSIDCV0
   _instrument:
     SEAWINDS: SeaWinds
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     QUIKSCAT: Quick Recovery Scatterometer
   _poc_org: NSIDC
@@ -1262,7 +1262,7 @@
     DIFEntryId: GES_DISC_GLDAS_NOAH10_M_V020
     GLDAS Noah Land Surface Model L4 monthly 1.0 x 1.0 degree Version 2.0: GLDAS_NOAH10_M
   _identifier: C199032959-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -1316,7 +1316,7 @@
     DIFEntryId: GES_DISC_NLDAS_FORA0125_H_V002
     NLDAS Primary Forcing Data L4 Hourly 0.125 x 0.125 degree: NLDAS_FORA0125_H
   _identifier: C195219449-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -1382,7 +1382,7 @@
     DIFEntryId: GES_DISC_GLDAS_NOAH10_3H_V020
     GLDAS Noah Land Surface Model L4 3 hourly 1.0 x 1.0 degree Version 2.0: GLDAS_NOAH10_3H
   _identifier: C199032902-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -1436,7 +1436,7 @@
   _identifier: C179125385-ORNL_DAAC
   _instrument_eos:
     ANALYSIS: ANALYSIS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
   _poc_org: ORNL_DAAC
@@ -1497,7 +1497,7 @@
     SMMR: Scanning Multichannel Microwave Radiometer
     SSM/I: Special Sensor Microwave/Imager
     SSMIS: Special Sensor Microwave Imager/Sounder
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AQUA: Earth Observing System, AQUA
     DMSP 5D-2/F11: Defense Meteorological Satellite Program-F11
@@ -1517,7 +1517,7 @@
     data for the years 2002 to 2011. Note: These data are considered provisional pending
     a review by the MEaSUREs program. Once the data have been reviewed, this statement
     will be removed from this documentation.'
-  end_time: 2012-12-31T23:59:59.000Z
+  end_time: 2011-09-27T23:59:59.000Z
   identifier: nasa-nsidcdaac-0477
   lat_max: '86.7167'
   lat_min: '-86.7167'
@@ -1525,7 +1525,7 @@
   lon_min: '-179.9999'
   name: MEaSUREs Global Record of Daily Landscape Freeze/Thaw Status
   native_id: NSIDC-0477
-  start_time: 1979-01-01T01:00:00.000Z
+  start_time: 2002-06-19T01:00:00.000Z
   uri: /dataset/nasa-nsidcdaac-0477
   url: http://nsidc.org/data/NSIDC-0477/versions/3
 - _identifier: C1086-NSIDCV0__2
@@ -1536,7 +1536,7 @@
   _identifier: C1040-NSIDCV0
   _instrument:
     RAWINSONDES: Undefined
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     BALLOONS: Undefined
     SHIPS: Undefined
@@ -1569,7 +1569,7 @@
   _identifier: C115003855-NSIDC_ECS
   _instrument_eos:
     MODIS: Moderate-Resolution Imaging Spectroradiometer
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     Aqua: Aqua EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: NSIDC
@@ -1593,7 +1593,7 @@
     DIFEntryId: GES_DISC_NLDAS_MOS0125_M_V002
     NLDAS Mosaic Land Surface Model L4 Monthly 0.125 x 0.125 degree: NLDAS_MOS0125_M
   _identifier: C198943365-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -1637,7 +1637,7 @@
   _identifier: C179125925-ORNL_DAAC
   _instrument_eos:
     ANALYSIS: ANALYSIS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
     FIELD INVESTIGATION: FIELD INVESTIGATION
@@ -1683,7 +1683,7 @@
     DIFEntryId: CIESIN_SEDAC_IPCC_OBSERVED
     IPCC Fourth Assessment Report (AR4) Observed Climate Change Impacts Database: CIESIN_SEDAC_IPCC_OBSERVED
   _identifier: C179002027-SEDAC
-  _organization: /organization/socioeconomic-data-applications-center
+  _organization_uri: /organization/socioeconomic-data-applications-center
   _poc_org: SEDAC
   _url2: http://sedac.ciesin.columbia.edu/data/set/ipcc-ar4-observed-climate-impacts/data-download
   description: The Intergovernmental Panel on Climate Change (IPCC) Fourth Assessement
@@ -1719,7 +1719,7 @@
     DIFEntryId: CIESIN_SEDAC_IPCC_BASELINE
     IPCC Socio-Economic Baseline Dataset: CIESIN_SEDAC_IPCC_BASELINE
   _identifier: C179001801-SEDAC
-  _organization: /organization/socioeconomic-data-applications-center
+  _organization_uri: /organization/socioeconomic-data-applications-center
   _poc_org: SEDAC
   _url2: http://sedac.ciesin.columbia.edu/data/set/ipcc-socio-economic-baseline/data-download
   description: The Intergovernmental Panel on Climate Change (IPCC) Socio-Economic
@@ -1745,7 +1745,7 @@
     DIFEntryId: GES_DISC_NLDAS_FORA0125_MC_V002
     NLDAS Primary Forcing Data L4 Monthly Climatology 0.125 x 0.125 degree: NLDAS_FORA0125_MC
   _identifier: C199663466-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -1787,7 +1787,7 @@
     SMMR: Scanning Multichannel Microwave Radiometer
     SSM/I: Special Sensor Microwave/Imager
     SSMIS: Special Sensor Microwave Imager/Sounder
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     DMSP 5D-2/F11: Defense Meteorological Satellite Program-F11
     DMSP 5D-2/F13: Defense Meteorological Satellite Program-F13
@@ -1833,7 +1833,7 @@
     SMMR: Scanning Multichannel Microwave Radiometer
     SSM/I: Special Sensor Microwave/Imager
     SSMIS: Special Sensor Microwave Imager/Sounder
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AQUA: Earth Observing System, AQUA
     BUOYS: Undefined
@@ -1876,7 +1876,7 @@
     DIFEntryId: GES_DISC_NLDAS_VIC0125_M_V002
     NLDAS VIC Land Surface Model L4 Monthly 0.125 x 0.125 degree: NLDAS_VIC0125_M
   _identifier: C211017962-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -1925,7 +1925,7 @@
   _identifier: C61468235-NSIDC_ECS
   _instrument_eos:
     MODIS: Moderate-Resolution Imaging Spectroradiometer
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     Terra: First EOS Polar Orbiting Satellite, 10:30 AM Descending Equator Crossing
   _poc_org: NSIDC
@@ -1950,7 +1950,7 @@
   _identifier: C179003208-ORNL_DAAC
   _instrument_eos:
     ANALYSIS: ANALYSIS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
   _poc_org: ORNL_DAAC
@@ -1987,7 +1987,7 @@
   _identifier: C115003861-NSIDC_ECS
   _instrument_eos:
     MODIS: Moderate-Resolution Imaging Spectroradiometer
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     Aqua: Aqua EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: NSIDC
@@ -2011,7 +2011,7 @@
   _identifier: C1860-NSIDCV0
   _instrument:
     CAMBOT: Continuous Airborne Mapping By Optical Translator
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -2041,7 +2041,7 @@
   _identifier: C61468232-NSIDC_ECS
   _instrument_eos:
     MODIS: Moderate-Resolution Imaging Spectroradiometer
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     Aqua: Aqua EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: NSIDC
@@ -2064,7 +2064,7 @@
     DIFEntryId: GES_DISC_GLDAS_NOAH025_3H_V020
     GLDAS Noah Land Surface Model L4 3 hourly 0.25 x 0.25 degree Version 2.0: GLDAS_NOAH025_3H
   _identifier: C207169804-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -2120,7 +2120,7 @@
   _identifier: C179014698-NSIDC_ECS
   _instrument_eos:
     AMSR-E: Advanced Microwave Scanning Radiometer-EOS
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     Aqua: First EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: NSIDC
@@ -2148,18 +2148,14 @@
     'CLPX-Ground: ISA Snow Depth Transects and Related Measurements': NSIDC-0175
     DIFEntryId: NSIDC-0175
   _identifier: C3641-NSIDCV0
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _poc_org: NSIDC
   _url2: http://nsidc.org/data/NSIDC-0175/versions/2
   description: This data set consists of snow depth data from nine study areas, within
     three larger-scale areas in northern Colorado (Fraser, North Park, and Rabbit
     Ears Meso-cell Study Areas (MSAs)). The study areas range from low-relief (flat
     topography) unforested areas with shallow snow covers, to high-relief (complex
-    topography) densely forested areas with deep snow covers. Parameters measured
-    include snow depth, snow wetness, snow temperature, soil temperature, and canopy
-    cover. Photos were taken of surface roughness and terrain. Data were collected
-    during February and March 2002 and 2003. This data set is part of the NASA Cold
-    Land Processes Field Experiment (CLPX).
+    topography) densely forested areas with deep snow covers.
   end_time: 2002-02-23T23:59:59.000Z
   identifier: nasa-nsidcdaac-0175
   lat_max: '42'
@@ -2180,7 +2176,7 @@
   _instrument_eos:
     ANALYSIS: ANALYSIS
     AVHRR: AVHRR
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
     FIELD INVESTIGATION: FIELD INVESTIGATION
@@ -2227,7 +2223,7 @@
     DIFEntryId: GES_DISC_NLDAS_MOS0125_MC_V002
     NLDAS Mosaic Land Surface Model L4 Monthly Climatology 0.125 x 0.125 degree: NLDAS_MOS0125_MC
   _identifier: C199663485-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -2267,7 +2263,7 @@
     DIFEntryId: GES_DISC_NLDAS_VIC0125_H_V002
     NLDAS VIC Land Surface Model L4 Hourly 0.125 x 0.125 degree: NLDAS_VIC0125_H
   _identifier: C209271225-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -2311,7 +2307,7 @@
   _identifier: C1178-NSIDCV0
   _instrument:
     CONDUCTIVITY METERS: Undefined
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     GROUND-BASED OBSERVATIONS: Undefined
   _poc_org: NSIDC
@@ -2350,7 +2346,7 @@
   _instrument_eos:
     KJELDAHL DIGESTION: KJELDAHL DIGESTION
     WEIGHING BALANCE: WEIGHING BALANCE
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     SOIL SURVEY: SOIL SURVEY
   _poc_org: ORNL_DAAC
@@ -2377,7 +2373,7 @@
   _identifier: C61468243-NSIDC_ECS
   _instrument_eos:
     SSM/I: Special Sensor Microwave/Imager
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DMSP-F13: Defense Meteorological Satellite Program-F13
   _poc_org: NSIDC
@@ -2407,7 +2403,7 @@
   _instrument_eos:
     ALGORITHM: ALGORITHM
     ANALYSIS: ANALYSIS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
   _poc_org: ORNL_DAAC
@@ -2448,7 +2444,7 @@
   _identifier: C191079401-NSIDC_ECS
   _instrument_eos:
     MCoRDS: Multichannel Coherent Radar Depth Sounder
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -2479,7 +2475,7 @@
   _identifier: C1000000280-NSIDC_ECS
   _instrument_eos:
     KT19 Pyrometer: Heitronics KT19 Infrared Radiation Pyrometer
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -2512,7 +2508,7 @@
     ANALYSIS: ANALYSIS
     MODIS (MODERATE-RESOLUTION IMAGING SPECTRORADIOMETER): MODIS (MODERATE-RESOLUTION
       IMAGING SPECTRORADIOMETER)
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     AQUA (AFTERNOON EQUATORIAL CROSSING TIME SATELLITE): AQUA (AFTERNOON EQUATORIAL
       CROSSING TIME SATELLITE)
@@ -2553,7 +2549,7 @@
   _identifier: C190688210-NSIDC_ECS
   _instrument_eos:
     MCoRDS: Multichannel Coherent Radar Depth Sounder
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -2577,7 +2573,7 @@
   _identifier: C1000000029-LANCEMODIS
   _instrument_eos:
     MODIS: Moderate-Resolution Imaging Spectroradiometer
-  _organization: /organization/level1-atmosphere-archive-distribution-system
+  _organization_uri: /organization/level1-atmosphere-archive-distribution-system
   _platform_eos:
     Aqua: Aqua EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: LAADS
@@ -2605,7 +2601,7 @@
     PYRANOMETERS: Undefined
     PYRGEOMETERS: Undefined
     RADIOMETERS: Undefined
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AIRCRAFT: Undefined
   _poc_org: NSIDC
@@ -2631,7 +2627,7 @@
   _identifier: C1184-NSIDCV0
   _instrument:
     MODIS: Moderate-Resolution Imaging Spectroradiometer
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AQUA: Earth Observing System, AQUA
   _poc_org: NSIDC
@@ -2666,7 +2662,7 @@
     DIFEntryId: GES_DISC_GLDAS_NOAH025_M_V020
     GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree Version 2.0: GLDAS_NOAH025_M
   _identifier: C207169865-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -2723,7 +2719,7 @@
   _identifier: C1000000580-NSIDC_ECS
   _instrument_eos:
     AMSR-E: Advanced Microwave Scanning Radiometer-EOS
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     Aqua: First EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: NSIDC
@@ -2753,7 +2749,7 @@
     DIFEntryId: NSIDC-0095
     Program for Arctic Regional Climate Assessment (PARCA) Data Sets: NSIDC-0095
   _identifier: C1341-NSIDCV0
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _poc_org: NSIDC
   _url2: http://nsidc.org/data/NSIDC-0095
   description: PARCA began in 1993 with the primary goal of measuring and understanding
@@ -2786,7 +2782,7 @@
   _identifier: C1000000062-NSIDC_ECS
   _instrument_eos:
     ATM: Airborne Topographic Mapper
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     DHC-6: DeHavilland Twin Otter
@@ -2822,7 +2818,7 @@
   _identifier: C179125665-ORNL_DAAC
   _instrument_eos:
     ANALYSIS: ANALYSIS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
     FIELD INVESTIGATION: FIELD INVESTIGATION
@@ -2872,7 +2868,7 @@
     SSMIS: Special Sensor Microwave Imager/Sounder
     TOVS: TIROS Operational Vertical Sounder
     VHRR: Very High Resolution Radiometer
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AQUA: Earth Observing System, AQUA
     BALLOONS: Undefined
@@ -2908,7 +2904,7 @@
   _instrument_eos:
     ANALYSIS: ANALYSIS
     LANDSAT MSS: LANDSAT MSS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     LANDSAT-5: LANDSAT-5
     VEGETATION SURVEY: VEGETATION SURVEY
@@ -2954,7 +2950,7 @@
     NCAR G-V Instruments: NCAR G-V Atmospheric Instrument Package
     PRESSURE TRANSDUCERS: Undefined
     TEMPERATURE SENSORS: Undefined
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AIRCRAFT: Undefined
     G-V: Gulfstream V
@@ -2983,7 +2979,7 @@
     DIFEntryId: GES_DISC_NLDAS_FOR0125_M_V001
     NLDAS Forcing Data L4 Monthly 0.125 x 0.125 degree: NLDAS_FOR0125_M
   _identifier: C199001373-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -3043,7 +3039,7 @@
     LASERS: Light Amplification by Stimulated Emission of Radiation
     LVIS: Land, Vegetation, and Ice Sensor
     LVIS Camera: Digital Mapping Camera paired with LVIS
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AIRCRAFT: Undefined
     B-200: Beechcraft King Air B-200
@@ -3080,7 +3076,7 @@
   _identifier: C1000000560-NSIDC_ECS
   _instrument_eos:
     AMSR-E: Advanced Microwave Scanning Radiometer-EOS
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     Aqua: First EOS Polar Orbiting Satellite, 1:30 PM Ascending Equator Crossing
   _poc_org: NSIDC
@@ -3112,7 +3108,7 @@
   _identifier: C1000000300-NSIDC_ECS
   _instrument_eos:
     AIRGrav: Sander/LDEO Airborne Inertially Referenced Gravimeter
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -3139,7 +3135,7 @@
     DIFEntryId: GES_DISC_NLDAS_NOAH0125_M_V002
     NLDAS Noah Land Surface Model L4 Monthly 0.125 x 0.125 degree: NLDAS_NOAH0125_M
   _identifier: C198943366-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -3187,7 +3183,7 @@
   _instrument_eos:
     ANALYSIS: ANALYSIS
     MODEL ANALYSIS: MODEL ANALYSIS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
   _poc_org: ORNL_DAAC
@@ -3222,7 +3218,7 @@
   _identifier: C1000000060-NSIDC_ECS
   _instrument_eos:
     ATM: Airborne Topographic Mapper
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     DC-8: Douglas DC-8
     DHC-6: DeHavilland Twin Otter
@@ -3260,7 +3256,7 @@
     ANALYSIS: ANALYSIS
     LANDSAT ETM+: LANDSAT ETM+
     LANDSAT TM: LANDSAT TM
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     LANDSAT-7: LANDSAT-7
     VEGETATION SURVEY: VEGETATION SURVEY
@@ -3301,7 +3297,7 @@
     DIFEntryId: GES_DISC_NLDAS_NOAH0125_MC_V002
     NLDAS Noah Land Surface Model L4 Monthly Climatology 0.125 x 0.125 degree: NLDAS_NOAH0125_MC
   _identifier: C199663487-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -3341,7 +3337,7 @@
     DIFEntryId: GES_DISC_NLDAS_FORA0125_M_V002
     NLDAS Primary Forcing Data L4 Monthly 0.125 x 0.125 degree: NLDAS_FORA0125_M
   _identifier: C198943164-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -3388,7 +3384,7 @@
   _instrument_eos:
     ANALYSIS: ANALYSIS
     MODEL ANALYSIS: MODEL ANALYSIS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
     FIELD INVESTIGATION: FIELD INVESTIGATION
@@ -3428,7 +3424,7 @@
     DIFEntryId: CIESIN_CHRR_NDH_FLOOD_HFD
     Global Flood Hazard Frequency and Distribution: CIESIN_CHRR_NDH_FLOOD_HFD
   _identifier: C179001777-SEDAC
-  _organization: /organization/socioeconomic-data-applications-center
+  _organization_uri: /organization/socioeconomic-data-applications-center
   _poc_org: SEDAC
   _url2: http://sedac.ciesin.columbia.edu/data/set/ndh-flood-hazard-frequency-distribution/data-download
   description: Global Flood Hazard Frequency and Distribution is a 2.5 minute grid
@@ -3458,7 +3454,7 @@
   _identifier: C179002840-ORNL_DAAC
   _instrument_eos:
     MODEL ANALYSIS: MODEL ANALYSIS
-  _organization: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  _organization_uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
   _platform_eos:
     COMPUTER MODEL: COMPUTER MODEL
   _poc_org: ORNL_DAAC
@@ -3491,7 +3487,7 @@
     SMMR: Scanning Multichannel Microwave Radiometer
     SSM/I: Special Sensor Microwave/Imager
     SSMIS: Special Sensor Microwave Imager/Sounder
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     DMSP 5D-2/F11: Defense Meteorological Satellite Program-F11
     DMSP 5D-2/F13: Defense Meteorological Satellite Program-F13
@@ -3538,7 +3534,7 @@
     DIFEntryId: CIESIN_SEDAC_SDEI_PM25
     Global Annual Average PM2.5 Grids from MODIS and MISR Aerosol Optical Depth (AOD): CIESIN_SEDAC_SDEI_PM25
   _identifier: C1000000182-SEDAC
-  _organization: /organization/socioeconomic-data-applications-center
+  _organization_uri: /organization/socioeconomic-data-applications-center
   _poc_org: SEDAC
   _url2: http://sedac.ciesin.columbia.edu/data/set/sdei-global-annual-avg-pm2-5-2001-2010/data-download
   description: 'Global Annual PM2.5 Grids from MODIS and MISR Aerosol Optical Depth
@@ -3586,7 +3582,7 @@
     SMMR: Scanning Multichannel Microwave Radiometer
     SSM/I: Special Sensor Microwave/Imager
     SSMIS: Special Sensor Microwave Imager/Sounder
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     DMSP 5D-2/F11: Defense Meteorological Satellite Program-F11
     DMSP 5D-2/F13: Defense Meteorological Satellite Program-F13
@@ -3623,7 +3619,7 @@
     DIFEntryId: GES_DISC_NLDAS_MOS0125_H_V002
     NLDAS Mosaic Land Surface Model L4 Hourly 0.125 x 0.125 degree: NLDAS_MOS0125_H
   _identifier: C195219570-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -3670,7 +3666,7 @@
   _instrument:
     CS-3: LDEO Scintrex CS-3 Cesium Magnetometer
     MAGNETOMETERS: Undefined
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     AIRCRAFT: Undefined
     P-3B: Lockheed P-3B Orion
@@ -3697,7 +3693,7 @@
     DIFEntryId: GES_DISC_NLDAS_FOR0125_H_V001
     NLDAS Forcing Data L4 Hourly 0.125 x 0.125 degree: NLDAS_FOR0125_H
   _identifier: C195219674-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -3735,7 +3731,7 @@
     total precipitation. The Convective Available Potential Energy (CAPE) is the final
     variable in the forcing data set, also interpolated from EDAS. The data set applies
     a user-defined parameter table to indicate the contents and parameter number.
-    The GRIBTAB file (http://disc.sci.gsfc.nasa.gov/hydrology/grib_tabs/gribtab_NLDAS_FORA_hourly.001.txt)
+    The GRIBTAB file (http://disc.sci.gsfc.nasa.gov/hydrology/grib_tabs/gribtab_NLDAS_FOR_hourly.001.txt)
     shows a list of parameters for this data set, along with their Product Definition
     Section (PDS) IDs and units. For more information, please see the README Document
     at ftp://hydro1.sci.gsfc.nasa.gov/data/s4pa/NLDAS/README.NLDAS1.pdf.
@@ -3757,7 +3753,7 @@
   _identifier: C1025-NSIDCV0
   _instrument:
     SMMR: Scanning Multichannel Microwave Radiometer
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     NIMBUS-7: Undefined
   _poc_org: NSIDC
@@ -3784,7 +3780,7 @@
   _identifier: C1000000080-LANCEMODIS
   _instrument_eos:
     MODIS: Moderate-Resolution Imaging Spectroradiometer
-  _organization: /organization/level1-atmosphere-archive-distribution-system
+  _organization_uri: /organization/level1-atmosphere-archive-distribution-system
   _platform_eos:
     Terra: First EOS Polar Orbiting Satellite, 10:30 AM Descending Equator Crossing
   _poc_org: LAADS
@@ -3813,7 +3809,7 @@
     SSM/I: Special Sensor Microwave/Imager
     SSMIS: Special Sensor Microwave Imager/Sounder
     VAS: VISSR Atmospheric Sounder
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     DMSP: Defense Meteorological Satellite Program
     DMSP 5D-2/F11: Defense Meteorological Satellite Program-F11
@@ -3856,7 +3852,7 @@
   _identifier: C190688181-NSIDC_ECS
   _instrument_eos:
     LVIS: Land, Vegetation, and Ice Sensor
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform_eos:
     B-200: Beechcraft King Air B-200
     C-130: Lockheed C-130 Hercules
@@ -3882,7 +3878,7 @@
     DIFEntryId: GES_DISC_NLDAS_FORB0125_MC_V002
     NLDAS Secondary Forcing Data L4 Monthly Climatology 0.125 x 0.125 degree: NLDAS_FORB0125_MC
   _identifier: C199663486-GSFCS4PA
-  _organization: /organization/goddard-earth-sciences-data-information-services-center
+  _organization_uri: /organization/goddard-earth-sciences-data-information-services-center
   _platform:
     Models/Analyses: Models/Analyses
   _poc_org: GESDISC
@@ -3923,7 +3919,7 @@
   _identifier: C2000-NSIDCV0
   _instrument:
     DMS: Digital Mapping System
-  _organization: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  _organization_uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
   _platform:
     DC-8: Douglas DC-8
     P-3B: Lockheed P-3B Orion
@@ -3933,8 +3929,8 @@
     System (DMS) over Antarctica and Greenland. The data were collected as part of
     Operation IceBridge funded aircraft survey campaigns.
   identifier: nasa-nsidcdaac-iodms0
-  lat_max: '90'
-  lat_min: '60'
+  lat_max: '-53'
+  lat_min: '-90'
   lon_max: '180'
   lon_min: '-180'
   name: IceBridge DMS L0 Raw Imagery

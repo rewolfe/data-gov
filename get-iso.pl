@@ -69,7 +69,7 @@ sub get_org {
 
     my $v = $p->{_poc_org} or return;
     my $o = $org_map{$v} or return;
-    $p->{_organization} = "/organization/$o";
+    $p->{_organization_uri} = "/organization/$o";
     return;
 }
 
