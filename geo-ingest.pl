@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.20.1;
+use v5.18.1;
 use Mojo::UserAgent;
 use Data::Dumper;
 use Scalar::Util qw(looks_like_number);

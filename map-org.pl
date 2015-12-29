@@ -10,7 +10,7 @@ use YAML::XS qw/Dump Load/;
 use strict;
 use v5.14;
 
-my $url = qq(http://data-stage.globalchange.gov);
+my $url = qq(http://data.globalchange.gov);
 
 &main;
 
