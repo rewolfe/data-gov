@@ -1,0 +1,12 @@
+S=~/src/data-gov
+D=~/src/data-gov/data
+S1=~/src/gcis-scripts/lib/Gcis
+T=~/src/gcis-test
+
+export PERL5LIB=$PERL5LIB:/home/rewolfe/src/gcis-scripts/lib
+export PERL5LIB=$PERL5LIB:/home/rewolfe/src/gcis-pl-client/lib
+export PERL5LIB=$PERL5LIB:/home/rewolfe/src/gcis/lib
+export PERL5LIB=$PERL5LIB:/home/rewolfe/src/data-gov
+export GCIS_API_URL=http://data-stage.globalchange.gov
+export TUBA_CONFIG=/home/rewolfe/src/gcis/Tuba.conf
+export GCIS_LOG=/usr/local/projects/release/tuba/log/production.log

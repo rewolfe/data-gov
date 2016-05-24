@@ -1,0 +1,573 @@
+ 0 - Acquisition Technology and Logistics
+   s : added
+   g : /organization/dod-office-under-secretary-defense-for-acquisition-technology-logistics
+   v.name : DOD Office of the Under Secretary of Defense for Acquisition, Technology, and Logistics
+   adding term : Acquisition Technology and Logistics
+ 1 - Agency for Healthcare Research and Quality
+   s : updated
+   g : /organization/us-department-health-human-services-agency-healthcare-research-quality
+   v.name : U.S. Department of Health and Human Services Agency for Healthcare Research and Quality
+   adding term : Agency for Healthcare Research and Quality
+ 2 - Agency for Healthcare Research and Quality, Department of Health & Human Services
+   s : updated
+   g : /organization/us-department-health-human-services-agency-healthcare-research-quality
+   v.name : U.S. Department of Health and Human Services Agency for Healthcare Research and Quality
+   adding term : Agency for Healthcare Research and Quality, Department of Health & Human Services
+ 3 - Agricultural Marketing Service, Department of Agriculture
+   s : updated
+   g : /organization/us-department-agriculture-agricultural-marketing-service
+   v.name : U.S. Department of Agriculture Agricultural Marketing Service
+   adding term : Agricultural Marketing Service, Department of Agriculture
+ 4 - Agricultural Research Service
+   s : ok
+   g : /organization/agricultural-research-service
+   v.name : U.S. Department of Agriculture Agricultural Research Service
+   adding term : Agricultural Research Service
+ 5 - Agricultural Research Service, Department of Agriculture
+   s : updated
+   g : /organization/agricultural-research-service
+   v.name : U.S. Department of Agriculture Agricultural Research Service
+   adding term : Agricultural Research Service, Department of Agriculture
+ 6 - Agricultural Research Service, U.S. Department of Agriculture
+   s : updated
+   g : /organization/agricultural-research-service
+   v.name : U.S. Department of Agriculture Agricultural Research Service
+   adding term : Agricultural Research Service, U.S. Department of Agriculture
+ 7 - Animal and Plant Health Inspection Service
+   s : ok
+   g : /organization/us-states-department-agriculture-animal-plant-health-inspection-service
+   v.name : U.S. Department of Agriculture Animal and Plant Health Inspection Service
+   adding term : Animal and Plant Health Inspection Service
+ 8 - Animal and Plant Health Inspection Service, Department of Agriculture
+   s : updated
+   g : /organization/us-states-department-agriculture-animal-plant-health-inspection-service
+   v.name : U.S. Department of Agriculture Animal and Plant Health Inspection Service
+   adding term : Animal and Plant Health Inspection Service, Department of Agriculture
+ 9 - Arctic Landscape Conservation Cooperative
+   s : added
+   g : /organization/arctic-landscape-conservation-cooperative
+   v.name : Arctic Landscape Conservation Cooperative
+   adding term : Arctic Landscape Conservation Cooperative
+ 10 - Argonne National Laboratory
+   s : updated
+   g : /organization/argonne-national-laboratory
+   v.name : Argonne National Laboratory
+   adding term : Argonne National Laboratory
+ 11 - CH2MHILL Polar Services
+   s : added
+   g : /organization/ch2mhill-polar-services
+   v.name : CH2M HILL Polar Services
+   adding term : CH2MHILL Polar Services
+ 12 - Center for Climatic Research, University of Wisconsin-Madison
+   s : ok
+   g : /organization/university-wisconsin-madison-center-climatic-research
+   v.name : University of Wisconsin-Madison Nelson Center for Climatic Research
+   adding term : Center for Climatic Research, University of Wisconsin-Madison
+ 13 - Centers for Disease Control and Prevention
+   s : ok
+   g : /organization/centers-disease-control-and-prevention
+   v.name : Centers for Disease Control and Prevention
+   adding term : Centers for Disease Control and Prevention
+ 14 - Centers for Disease Control and Prevention, Department of Health & Human Services
+   s : ok
+   g : /organization/centers-disease-control-and-prevention
+   v.name : Centers for Disease Control and Prevention
+   adding term : Centers for Disease Control and Prevention, Department of Health & Human Services
+ 15 - Centers for Medicare & Medicaid Services
+   s : ok
+   g : /organization/us-department-health-human-services-centers-medicare-medicaid-services
+   v.name : Centers for Medicare and Medicaid Services
+   adding term : Centers for Medicare & Medicaid Services
+ 16 - Civil Engineering Department - Santa Clara University
+   s : ok
+   g : /organization/santa-clara-university-department-civil-engineering
+   v.name : Santa Clara University Department of Civil Engineering
+   adding term : Civil Engineering Department - Santa Clara University
+ 17 - Climate Impacts Group, University of Washington, College of the Environment
+   s : ok
+   g : /organization/university-washington-climate-impacts-group
+   v.name : University of Washington Climate Impacts Group
+   adding term : Climate Impacts Group, University of Washington, College of the Environment
+ 18 - Climate Prediction Center, NOAA
+   s : ok
+   g : /organization/climate-prediction-center
+   v.name : National Weather Service Climate Prediction Center
+   adding term : Climate Prediction Center, NOAA
+ 19 - DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce
+   s : updated
+   g : /organization/national-climatic-data-center
+   v.name : National Oceanic and Atmospheric Administration National Climatic Data Center
+   adding term : DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce
+ 20 - DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center
+   s : ok
+   g : /organization/national-geophysical-data-center
+   v.name : National Geophysical Data Center
+   adding term : DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center
+ 21 - DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce
+   s : ok
+   g : /organization/national-geophysical-data-center
+   v.name : National Geophysical Data Center
+   adding term : DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce
+ 22 - 
+ warning - not a normal status : (name is null)
+ 23 - Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), Ocean and Coastal Resource Management (OCRM), National Marine Protected Areas Center (MPAC)
+   s : ok
+   g : /organization/national-marine-protected-areas-center
+   v.name : National Marine Protected Areas Center 
+   adding term : Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), Ocean and Coastal Resource Management (OCRM), National Marine Protected Areas Center (MPAC)
+ 24 - Economic Research Service, Department of Agriculture
+   s : updated
+   g : /organization/economic-research-service
+   v.name : U.S. Department of Agriculture Economic Research Service
+   adding term : Economic Research Service, Department of Agriculture
+ 25 - Economic Research Service, U.S. Department of Agriculture
+   s : updated
+   g : /organization/economic-research-service
+   v.name : U.S. Department of Agriculture Economic Research Service
+   adding term : Economic Research Service, U.S. Department of Agriculture
+ 26 - Economic Research Service, US Department of Agriculture
+   s : updated
+   g : /organization/economic-research-service
+   v.name : U.S. Department of Agriculture Economic Research Service
+   adding term : Economic Research Service, US Department of Agriculture
+ 27 - Environmental Protection Agency
+   s : ok
+   g : /organization/us-environmental-protection-agency
+   v.name : U.S. Environmental Protection Agency
+   adding term : Environmental Protection Agency
+ 28 - FHWA
+   s : ok
+   g : /organization/federal-highway-administration
+   v.name : Federal Highway Administration
+   adding term : FHWA
+ 29 - Farm Service Agency, Department of Agriculture
+   s : updated
+   g : /organization/us-department-agriculture-farm-service-agency
+   v.name : U.S. Department of Agriculture Farm Service Agency
+   adding term : Farm Service Agency, Department of Agriculture
+ 30 - Federal Aviation Administration (Aeronautical Information Services, ATA-100)
+   s : ok
+   g : /organization/federal-aviation-administration
+   v.name : Federal Aviation Adminstration
+   adding term : Federal Aviation Administration (Aeronautical Information Services, ATA-100)
+ 31 - Federal Emergency Management Agency
+   s : ok
+   g : /organization/federal-emergency-management-agency
+   v.name : Federal Emergency Management Agency
+   adding term : Federal Emergency Management Agency
+ 32 - Federal Highway Adimnistration (FHWA)
+   s : ok
+   g : /organization/federal-highway-administration
+   v.name : Federal Highway Administration
+   adding term : Federal Highway Adimnistration (FHWA)
+ 33 - Federal Highway Administration
+   s : ok
+   g : /organization/federal-highway-administration
+   v.name : Federal Highway Administration
+   adding term : Federal Highway Administration
+ 34 - Federal Highway Administration (FHWA)
+   s : ok
+   g : /organization/federal-highway-administration
+   v.name : Federal Highway Administration
+   adding term : Federal Highway Administration (FHWA)
+ 35 - Federal Railroad Administration (FRA)
+   s : updated
+   g : /organization/federal-railroad-administration
+   v.name : Federal Railroad Administration
+   adding term : Federal Railroad Administration (FRA)
+ 36 - Federal Transit Administration
+   s : ok
+   g : /organization/federal-transit-administration
+   v.name : Federal Transit Administration
+   adding term : Federal Transit Administration
+ 37 - Food and Nutrition Service
+   s : ok
+   g : /organization/food-nutrition-service
+   v.name : U.S. Department of Agriculture Food and Nutrition Service
+   adding term : Food and Nutrition Service
+ 38 - Food and Nutrition Service, Department of Agriculture
+   s : updated
+   g : /organization/food-nutrition-service
+   v.name : U.S. Department of Agriculture Food and Nutrition Service
+   adding term : Food and Nutrition Service, Department of Agriculture
+ 39 - Foreign Agricultural Service, Department of Agriculture
+   s : updated
+   g : /organization/us-department-agriculture-foreign-agricultural-service
+   v.name : U.S. Department of Agriculture Foreign Agricultural Service
+   adding term : Foreign Agricultural Service, Department of Agriculture
+ 40 - Georgia Tech
+   s : updated
+   g : /organization/georgia-institute-technology
+   v.name : Georgia Institute of Technology
+   adding term : Georgia Tech
+ 41 - Government of Canada, Natural Resources Canada, Canada Centre for Remote Sensing, The Atlas of Canada
+   s : updated
+   g : /organization/natural-resources-canada
+   v.name : Natural Resources Canada
+   adding term : Government of Canada, Natural Resources Canada, Canada Centre for Remote Sensing, The Atlas of Canada
+ 42 - Hazardous Material Routes:U.S. Department of Transportation Volpe NTSC TIGER/Line:U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+   s : updated
+   g : /organization/geography-division
+   v.name : U.S. Census Bureau Geography Division
+   adding term : Hazardous Material Routes:U.S. Department of Transportation Volpe NTSC TIGER/Line:U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+ 43 - Hazards and Vulnerability Research Institute
+   s : ok
+   g : /organization/university-south-carolina-hazards-vulnerability-research-institute
+   v.name : University of South Carolina Hazards & Vulnerability Research Institute
+   adding term : Hazards and Vulnerability Research Institute
+ 44 - Health Resources and Services Administration
+   s : ok
+   g : /organization/health-resources-services-administration
+   v.name : Health Resources and Services Administration
+   adding term : Health Resources and Services Administration
+ 45 - NASA GSFC
+   s : updated
+   g : /organization/goddard-space-flight-center
+   v.name : NASA Goddard Space Flight Center
+   adding term : NASA GSFC
+ 46 - NOAA Climate Data Record Program (CDRP)
+   s : updated
+   g : /organization/climate-data-record-program
+   v.name : National Climatic Data Center Climate Data Record Program
+   adding term : NOAA Climate Data Record Program (CDRP)
+ 47 - NOAA Fisheries Headquarters
+   s : ok
+   g : /organization/national-oceanic-atmospheric-administration-national-marine-fisheries-service
+   v.name : National Oceanic and Atmospheric Administration National Marine Fisheries Service
+   adding term : NOAA Fisheries Headquarters
+ 48 - NOAA Office for Coastal Management
+   s : updated
+   g : /organization/noaa-office-coastal-management
+   v.name : National Oceanic and Atmospheric Administration Office for Coastal Management
+   adding term : NOAA Office for Coastal Management
+ 49 - NOAA/Great Lakes Environmental Research Laboratory
+   s : updated
+   g : /organization/national-oceanic-atmospheric-administration-great-lakes-environmental-research-laboratory
+   v.name : National Oceanic and Atmospheric Administration Great Lakes Environmental Research Laboratory
+   adding term : NOAA/Great Lakes Environmental Research Laboratory
+ 50 - NOAA/NESDIS/NODC/NCDDC-National Coastal Data Development Center
+   s : updated
+   g : /organization/noaa-national-coastal-data-development-center
+   v.name : National Oceanic and Atmospheric Administration National Coastal Data Development Center
+   adding term : NOAA/NESDIS/NODC/NCDDC-National Coastal Data Development Center
+ 51 - NOAA/NMFS/OHC/HPD
+ warning - not a normal status : appear to be part of the noaa fisheries, but cannot determine what brtanch/program this is referring to
+ 52 - NRCS
+   s : ok
+   g : /organization/natural-resources-conservation-service
+   v.name : Natural Resources Conservation Service
+   adding term : NRCS
+ 53 - National Aeronautics and Space Administration
+   s : ok
+   g : /organization/national-aeronautics-space-administration
+   v.name : National Aeronautics and Space Administration
+   adding term : National Aeronautics and Space Administration
+ 54 - National Agricultural Statistics Service, Department of Agriculture
+   s : ok
+   g : /organization/national-agricultural-statistics-service
+   v.name : National Agricultural Statistics Service
+   adding term : National Agricultural Statistics Service, Department of Agriculture
+ 55 - National Atlas of the United States
+   s : updated
+   g : /organization/usgs-national-map
+   v.name : U.S. Geological Survey National Map
+   adding term : National Atlas of the United States
+ 56 - National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Center for Operational Oceanographic Products and Services (CO-OPS)
+   s : updated
+   g : /organization/noaa-center-operational-oceanographic-products-services
+   v.name : National Oceanic and Atmospheric Administration Center for Operational Oceanographic Products and Services
+   adding term : National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Center for Operational Oceanographic Products and Services (CO-OPS)
+ 57 - National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office of Coast Survey (OCS)
+   s : updated
+   g : /organization/noaa-office-coastal-management
+   v.name : National Oceanic and Atmospheric Administration Office for Coastal Management
+   adding term : National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office of Coast Survey (OCS)
+ 58 - National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office of Response and Restoration (ORR), Emergency Response Division (ERD)
+ warning - not exactly one status : 3
+ 59 - National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Special Projects (SP)
+ warning - not a normal status : website no longer exists, see http://specialprojects.nos.noaa.gov/
+ 60 - National Oceanic and Atmospheric Administration, National Ocean Service, National Centers for Coastal and Ocean Science, Center for Coastal Montioring and Assessment (CCMA)
+ warning - not exactly one status : 6
+ 61 - National Renewable Energy Laboratory (NREL)
+   s : ok
+   g : /organization/national-renewable-energy-laboratory
+   v.name : National Renewable Energy Laboratory
+   adding term : National Renewable Energy Laboratory (NREL)
+ 62 - National Water-Quality Assessment Program, U.S. Geological Survey
+   s : updated
+   g : /organization/us-geological-survey-national-water-quality-assessment-program
+   v.name : U.S. Geological Survey National Water Quality Assessment Program
+   adding term : National Water-Quality Assessment Program, U.S. Geological Survey
+ 63 - National Weather Service/OST
+   s : updated
+   g : /organization/noaa-office-science-technology-integration
+   v.name : National Oceanic and Atmospheric Administration Office of Science and Technology Integration
+   adding term : National Weather Service/OST
+ 64 - Natural Resources Conservation Service, Colorado State University
+ warning - not exactly one status : 2
+ 65 - Northwest Climate Science Center
+   s : updated
+   g : /organization/northwest-csc
+   v.name : Northwest Climate Science Center
+   adding term : Northwest Climate Science Center
+ 66 - Oak Ridge National Laboratory
+   s : updated
+   g : /organization/us-department-energy-office-energy-efficiency-renewable-energy
+   v.name : US Department of Energy Office of Energy Efficiency & Renewable Energy
+   adding term : Oak Ridge National Laboratory
+ 67 - Office of Energy Efficiency & Renewable Energy
+   s : ok
+   g : /organization/us-department-energy-energy-incentive-programs
+   v.name : U.S. Department of Energy Energy Incentive Programs
+   adding term : Office of Energy Efficiency & Renewable Energy
+ 68 - Office of Interstate & Border Planning, HEPI-1 , US Department of Transportation, Federal Highway Administration
+   s : added
+   g : /organization/fhwa-office-planning
+   v.name : FHWA Office of Planning
+   adding term : Office of Interstate & Border Planning, HEPI-1 , US Department of Transportation, Federal Highway Administration
+ 69 - Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics
+   s : added
+   g : /organization/dot-office-assistant-secretary-research-technology
+   v.name : DOT Office of the Assistant Secretary for Research and Technology
+   adding term : Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics
+ 70 - Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)
+   s : ok
+   g : /organization/bureau-transportation-statistics
+   v.name : Bureau of Transportation Statistics
+   adding term : Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)
+ 71 - Oregon State University
+   s : ok
+   g : /organization/oregon-state-university
+   v.name : Oregon State University
+   adding term : Oregon State University
+ 72 - Pipeline and Hazardous Materials Safety Administration
+   s : ok
+   g : /organization/us-department-transportation-pipeline-hazardous-materials-safety-administration
+   v.name : U.S. Department of Transportation Pipeline and Hazardous Materials Safety Administration
+   adding term : Pipeline and Hazardous Materials Safety Administration
+ 73 - Research and Innovative Technology Administration
+   s : updated
+   g : /organization/us-department-transportation-research-innovative-technology-administration
+   v.name : U.S. Department of Transportation Research and Innovative Technology Administration
+   adding term : Research and Innovative Technology Administration
+ 74 - Santa Clara U., U.S. Bureau of Reclamation, U.S. Dept. of Energy
+ warning - not exactly one status : 3
+ 75 - Spatial Climate Analysis Service
+ warning - not exactly one status : 2
+ 76 - Substance Abuse & Mental Health Services Administration
+   s : ok
+   g : /organization/us-department-health-human-services-substance-abuse-mental-health-services-administration
+   v.name : Substance Abuse and Mental Health Services Administration
+   adding term : Substance Abuse & Mental Health Services Administration
+ 77 - Texas Tech University
+   s : ok
+   g : /organization/texas-tech-university
+   v.name : Texas Tech University
+   adding term : Texas Tech University
+ 78 - The Wilderness Society
+   s : added
+   g : /organization/wilderness-society
+   v.name : The Wilderness Society
+   adding term : The Wilderness Society
+ 79 - U.S. Department of Energy (DOE)
+   s : updated
+   g : /organization/us-department-energy-energy-incentive-programs
+   v.name : U.S. Department of Energy Energy Incentive Programs
+   adding term : U.S. Department of Energy (DOE)
+ 80 - U.S. Energy Information Administration
+   s : updated
+   g : /organization/us-energy-information-administration
+   v.name : U.S. Energy Information Administration
+   adding term : U.S. Energy Information Administration
+ 81 - U.S. Energy Information Administration (EIA)
+   s : updated
+   g : /organization/us-energy-information-administration
+   v.name : U.S. Energy Information Administration
+   adding term : U.S. Energy Information Administration (EIA)
+ 82 - U.S. Environmental Protection Agency, Office of Enforcement and Compliance Assurance-Office of Compliance
+   s : added
+   g : /organization/epa-office-enforcement-compliance-assurance
+   v.name : EPA Office of Enforcement and Compliance Assurance
+   adding term : U.S. Environmental Protection Agency, Office of Enforcement and Compliance Assurance-Office of Compliance
+ 83 - U.S. Environmental Protection Agency, Office of Sustainable Communities
+   s : added
+   g : /organization/epa-office-sustainable-communities
+   v.name : EPA Office of Sustainable Communities
+   adding term : U.S. Environmental Protection Agency, Office of Sustainable Communities
+ 84 - U.S. Environmental Protection Agency,Office of Environmental Information
+   s : added
+   g : /organization/epa-office-environmental-information
+   v.name : EPA Office of Environmental Information
+   adding term : U.S. Environmental Protection Agency,Office of Environmental Information
+ 85 - U.S. Fish and Wildlife Service
+   s : ok
+   g : /organization/us-fish-wildlife-service
+   v.name : U.S. Fish and Wildlife Service
+   adding term : U.S. Fish and Wildlife Service
+ 86 - U.S. Forest Service, Southern Research Station
+   s : updated
+   g : /organization/us-forest-service-southern-research-station
+   v.name : U.S. Forest Service Southern Research Station
+   adding term : U.S. Forest Service, Southern Research Station
+ 87 - U.S. Geological Survey
+   s : ok
+   g : /organization/us-geological-survey
+   v.name : U.S. Geological Survey
+   adding term : U.S. Geological Survey
+ 88 - U.S. Geological Survey - Alaska Science Center
+   s : updated
+   g : /organization/united-states-geological-survey-alaska-science-center
+   v.name : United States Geological Survey Alaska Science Center
+   adding term : U.S. Geological Survey - Alaska Science Center
+ 89 - U.S. Geological Survey / College of Oceanic and Atmospheric Sciences, Oregon State University
+   s : ok
+   g : /organization/oregon-state-college-oceanic-atmospheric-sciences
+   v.name : Oregon State University College of Oceanic and Atmospheric Sciences
+   adding term : U.S. Geological Survey / College of Oceanic and Atmospheric Sciences, Oregon State University
+ 90 - U.S. Geological Survey Earth Resources Observation and Science (EROS) Center
+   s : updated
+   g : /organization/earth-resources-observation-science-center
+   v.name : Earth Resources Observation and Science Center
+   adding term : U.S. Geological Survey Earth Resources Observation and Science (EROS) Center
+ 91 - U.S. Geological Survey Gap Analysis Program
+   s : added
+   g : /organization/usgs-national-gap-analysis-program
+   v.name : USGS National Gap Analysis Program
+   adding term : U.S. Geological Survey Gap Analysis Program
+ 92 - U.S. Geological Survey, CLIMATE & LAND-USE
+   s : added
+   g : /organization/usgs-climate-land-use-change
+   v.name : USGS Climate and Land Use Change
+   adding term : U.S. Geological Survey, CLIMATE & LAND-USE
+ 93 - U.S. Geological Survey, Central Energy Resource Team
+   s : added
+   g : /organization/usgs-central-energy-resources-science-center
+   v.name : USGS Central Energy Resources Science Center
+   adding term : U.S. Geological Survey, Central Energy Resource Team
+ 94 - U.S. Geological Survey, Central Energy Resources Science Center
+   s : added
+   g : /organization/usgs-central-energy-resources-science-center
+   v.name : USGS Central Energy Resources Science Center
+   adding term : U.S. Geological Survey, Central Energy Resources Science Center
+ 95 - U.S. Geological Survey, Central Energy Resources Team
+   s : added
+   g : /organization/usgs-central-energy-resources-science-center
+   v.name : USGS Central Energy Resources Science Center
+   adding term : U.S. Geological Survey, Central Energy Resources Team
+ 96 - U.S. Geological Survey, Indiana Water Science Center
+   s : added
+   g : /organization/usgs-indiana-water-science-center
+   v.name : USGS Indiana Water Science Center
+   adding term : U.S. Geological Survey, Indiana Water Science Center
+ 97 - U.S. Geological Survey, Patuxent Wildlife Research Center
+   s : ok
+   g : /organization/patuxent-wildlife-research-center
+   v.name : Patuxent Wildlife Research Center
+   adding term : U.S. Geological Survey, Patuxent Wildlife Research Center
+ 98 - UNH/CCOM-JHC : Center for Coastal and Ocean Mapping/Joint Hydrographic Center, University of New Hampshire
+   s : added
+   g : /organization/unh-center-coastal-ocean-mapping-joint-hydrographic-center
+   v.name : UNH Center for Coastal and Ocean Mapping/Joint Hydrographic Center
+   adding term : UNH/CCOM-JHC : Center for Coastal and Ocean Mapping/Joint Hydrographic Center, University of New Hampshire
+ 99 - US Army Corps of Engineers (USACE)
+   s : updated
+   g : /organization/us-army-corps-engineers
+   v.name : U.S. Army Corps of Engineers
+   adding term : US Army Corps of Engineers (USACE)
+ 100 - US Bureau of the Census
+   s : updated
+   g : /organization/us-department-housing-office-urban-development-community-planning-development
+   v.name : U.S. Department of Housing and Urban Development Office of Community Planning and Development
+   adding term : US Bureau of the Census
+ 101 - US Department of Housing and Urban Development
+   s : updated
+   g : /organization/us-department-housing-office-urban-development-community-planning-development
+   v.name : U.S. Department of Housing and Urban Development Office of Community Planning and Development
+   adding term : US Department of Housing and Urban Development
+ 102 - US Environmental Protection Agency, Research Triangle Park
+   s : updated
+   g : /organization/us-environmental-protection-agency
+   v.name : U.S. Environmental Protection Agency
+   adding term : US Environmental Protection Agency, Research Triangle Park
+ 103 - US Gelogical Survey
+ warning - not a normal status : probably an error
+ 104 - US Geological Survey Core Science Analytics and Synthesis Program
+ warning - not a normal status : (need to add to gcis)
+ 105 - US Geological Survey, Geosciences and Environmental Change Science Center
+   s : ok
+   g : /organization/us-geological-survey-geosciences-environmental-change-science-center
+   v.name : US Geological Survey Geosciences and Environmental Change Science Center
+   adding term : US Geological Survey, Geosciences and Environmental Change Science Center
+ 106 - US Geological Survey, Maryland Water Science Center
+   s : added
+   g : /organization/usgs-maryland-delaware-dc-water-science-center
+   v.name : USGS Maryland-Delaware-D.C. Water Science Center
+   adding term : US Geological Survey, Maryland Water Science Center
+ 107 - US National Oceanographic Data Center
+   s : ok
+   g : /organization/national-oceanographic-data-center
+   v.name : National Oceanographic Data Center
+   adding term : US National Oceanographic Data Center
+ 108 - USDA Economic Research Service
+   s : updated
+   g : /organization/economic-research-service
+   v.name : U.S. Department of Agriculture Economic Research Service
+   adding term : USDA Economic Research Service
+ 109 - USDA Forest Service, Rocky Mountain Research Station, Aldo Leopold Wilderness
+ warning - not exactly one status : 2
+ 110 - USDOT FRA
+   s : ok
+   g : /organization/federal-railroad-administration
+   v.name : Federal Railroad Administration
+   adding term : USDOT FRA
+ 111 - USDOT/FRA
+   s : ok
+   g : /organization/federal-railroad-administration
+   v.name : Federal Railroad Administration
+   adding term : USDOT/FRA
+ 112 - USGS
+   s : ok
+   g : /organization/us-geological-survey
+   v.name : U.S. Geological Survey
+   adding term : USGS
+ 113 - USGS Center for Integrated Data Analytics
+   s : added
+   g : /organization/us-geological-survey-center-integrated-data-analytics
+   v.name : US Geological Survey Center for Integrated Data Analytics
+   adding term : USGS Center for Integrated Data Analytics
+ 114 - United States Department of Agriculture
+ warning - not a normal status : (needs work)
+ 115 - United States Geological Survey
+   s : ok
+   g : /organization/us-geological-survey
+   v.name : U.S. Geological Survey
+   adding term : United States Geological Survey
+ 116 - United States Geological Survey, Aquatic GAP Analysis Program
+   s : added
+   g : /organization/usgs-aquatic-gap-analysis-program
+   v.name : USGS Aquatic Gap Analysis Program
+   adding term : United States Geological Survey, Aquatic GAP Analysis Program
+ 117 - University of Alaska Fairbanks
+   s : ok
+   g : /organization/university-alaska-fairbanks
+   v.name : University of Alaska Fairbanks
+   adding term : University of Alaska Fairbanks
+ 118 - University of Idaho
+   s : ok
+   g : /organization/university-idaho
+   v.name : University of Idaho
+   adding term : University of Idaho
+ 119 - Varies, see http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/
+ warning - not a normal status : not sure whether this belongs as an org
+ 120 - Waterborne Commerce Statistics Center
+   s : added
+   g : /organization/us-army-corp-engineers-waterborne-commerce-statistics-center
+   v.name : US Army Corp of Engineers Waterborne Commerce Statistics Center
+   adding term : Waterborne Commerce Statistics Center
+ 121 - Woods Hole Oceanographic Institution
+   s : ok
+   g : /organization/woods-hole-oceanographic-institution
+   v.name : Woods Hole Oceanographic Institution
+   adding term : Woods Hole Oceanographic Institution
+ 122 - data.cdc.gov
+ warning - not a normal status : (needs work)

@@ -1,0 +1,47 @@
+---
+- echoId: C179003657-ORNL_DAAC
+  landingPage: http://reverb.echo.nasa.gov/reverb?selected=C179003657-ORNL_DAAC
+  name: a-global-database-of-gas-fluxes-from-soils-after-rewetting-or-thawing-version-1-0
+  organization: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+- echoId: C179014698-NSIDC_ECS
+  landingPage: http://reverb.echo.nasa.gov/reverb?selected=C179014698-NSIDC_ECS
+  name: amsr-e-aqua-5-day-l3-global-snow-water-equivalent-ease-grids-v002
+  organization: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+- echoId: C1123-NSIDCV0__1
+  landingPage: http://reverb.echo.nasa.gov/reverb?selected=C1123-NSIDCV0
+  name: amsr-e-aqua-daily-global-quarter-degree-gridded-brightness-temperatures-03820
+  organization: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+- echoId: C1000000560-NSIDC_ECS
+  landingPage: http://reverb.echo.nasa.gov/reverb?selected=C1000000560-NSIDC_ECS
+  name: amsr-e-aqua-daily-l3-12-5-km-tb-sea-ice-conc-snow-depth-polar-grids-v003
+  organization: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+- echoId: C1000000580-NSIDC_ECS
+  landingPage: http://reverb.echo.nasa.gov/reverb?selected=C1000000580-NSIDC_ECS
+  name: amsr-e-aqua-daily-l3-25-km-tb-and-sea-ice-concentration-polar-grids-v003
+  organization: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+- echoId: C1000000561-NSIDC_ECS
+  landingPage: http://reverb.echo.nasa.gov/reverb?selected=C1000000561-NSIDC_ECS
+  name: amsr-e-aqua-daily-l3-6-25-km-89-ghz-brightness-temperature-tb-polar-grids-v003
+  organization: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+- echoId: C179014688-NSIDC_ECS
+  landingPage: http://reverb.echo.nasa.gov/reverb?selected=C179014688-NSIDC_ECS
+  name: amsr-e-aqua-daily-l3-global-snow-water-equivalent-ease-grids-v002
+  organization: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+- echoId: C1184-NSIDCV0
+  landingPage: http://reverb.echo.nasa.gov/reverb?selected=C1184-NSIDCV0
+  name: amsrice03-modis-imagery
+  organization: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+- echoId: C1178-NSIDCV0
+  landingPage: http://reverb.echo.nasa.gov/reverb?selected=C1178-NSIDCV0
+  name: amsrice03-sea-ice-thickness-data
+  organization: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+

@@ -1,0 +1,98 @@
+1a2,3
+> - gcid: /organization/dod-office-under-secretary-defense-for-acquisition-technology-logistics
+>   term: Acquisition Technology and Logistics
+17a20,21
+> - gcid: /organization/arctic-landscape-conservation-cooperative
+>   term: Arctic Landscape Conservation Cooperative
+19a24,25
+> - gcid: /organization/university-wisconsin-madison-center-climatic-research
+>   term: 'Center for Climatic Research, University of Wisconsin-Madison'
+25a32,33
+> - gcid: /organization/ch2mhill-polar-services
+>   term: CH2MHILL Polar Services
+59a68,69
+> - gcid: /organization/federal-railroad-administration
+>   term: Federal Railroad Administration (FRA)
+73a84,85
+> - gcid: /organization/geography-division
+>   term: 'Hazardous Material Routes:U.S. Department of Transportation Volpe NTSC TIGER/Line:U.S. Department of Commerce, U.S. Census Bureau, Geography Division'
+75a88,89
+> - gcid: /organization/health-resources-services-administration
+>   term: Health Resources and Services Administration
+81a96,101
+> - gcid: /organization/usgs-national-map
+>   term: National Atlas of the United States
+> - gcid: /organization/noaa-center-operational-oceanographic-products-services
+>   term: 'National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Center for Operational Oceanographic Products and Services (CO-OPS)'
+> - gcid: /organization/noaa-office-coastal-management
+>   term: 'National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office of Coast Survey (OCS)'
+83a104,107
+> - gcid: /organization/us-geological-survey-national-water-quality-assessment-program
+>   term: 'National Water-Quality Assessment Program, U.S. Geological Survey'
+> - gcid: /organization/noaa-office-science-technology-integration
+>   term: National Weather Service/OST
+89a114,119
+> - gcid: /organization/noaa-national-coastal-data-development-center
+>   term: NOAA/NESDIS/NODC/NCDDC-National Coastal Data Development Center
+> - gcid: /organization/noaa-office-coastal-management
+>   term: NOAA Office for Coastal Management
+> - gcid: /organization/northwest-csc
+>   term: Northwest Climate Science Center
+91a122,123
+> - gcid: /organization/us-department-energy-office-energy-efficiency-renewable-energy
+>   term: Oak Ridge National Laboratory
+93a126,131
+> - gcid: /organization/fhwa-office-planning
+>   term: 'Office of Interstate & Border Planning, HEPI-1 , US Department of Transportation, Federal Highway Administration'
+> - gcid: /organization/dot-office-assistant-secretary-research-technology
+>   term: Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics
+> - gcid: /organization/bureau-transportation-statistics
+>   term: Office of the Assistant Secretary for Research and Technology/Bureau of Transportation Statistics (BTS)
+103a142,145
+> - gcid: /organization/wilderness-society
+>   term: The Wilderness Society
+> - gcid: /organization/unh-center-coastal-ocean-mapping-joint-hydrographic-center
+>   term: 'UNH/CCOM-JHC : Center for Coastal and Ocean Mapping/Joint Hydrographic Center, University of New Hampshire'
+105a148,149
+> - gcid: /organization/usgs-aquatic-gap-analysis-program
+>   term: 'United States Geological Survey, Aquatic GAP Analysis Program'
+119a164,167
+> - gcid: /organization/federal-railroad-administration
+>   term: USDOT FRA
+> - gcid: /organization/federal-railroad-administration
+>   term: USDOT/FRA
+123a172,177
+> - gcid: /organization/epa-office-enforcement-compliance-assurance
+>   term: 'U.S. Environmental Protection Agency, Office of Enforcement and Compliance Assurance-Office of Compliance'
+> - gcid: /organization/epa-office-environmental-information
+>   term: 'U.S. Environmental Protection Agency,Office of Environmental Information'
+> - gcid: /organization/epa-office-sustainable-communities
+>   term: 'U.S. Environmental Protection Agency, Office of Sustainable Communities'
+133a188,195
+> - gcid: /organization/usgs-central-energy-resources-science-center
+>   term: 'U.S. Geological Survey, Central Energy Resources Science Center'
+> - gcid: /organization/usgs-central-energy-resources-science-center
+>   term: 'U.S. Geological Survey, Central Energy Resources Team'
+> - gcid: /organization/usgs-central-energy-resources-science-center
+>   term: 'U.S. Geological Survey, Central Energy Resource Team'
+> - gcid: /organization/usgs-climate-land-use-change
+>   term: 'U.S. Geological Survey, CLIMATE & LAND-USE'
+137a200,209
+> - gcid: /organization/usgs-national-gap-analysis-program
+>   term: U.S. Geological Survey Gap Analysis Program
+> - gcid: /organization/us-geological-survey-geosciences-environmental-change-science-center
+>   term: 'US Geological Survey, Geosciences and Environmental Change Science Center'
+> - gcid: /organization/usgs-indiana-water-science-center
+>   term: 'U.S. Geological Survey, Indiana Water Science Center'
+> - gcid: /organization/usgs-maryland-delaware-dc-water-science-center
+>   term: 'US Geological Survey, Maryland Water Science Center'
+> - gcid: /organization/patuxent-wildlife-research-center
+>   term: 'U.S. Geological Survey, Patuxent Wildlife Research Center'
+139a212,215
+> - gcid: /organization/us-geological-survey-center-integrated-data-analytics
+>   term: USGS Center for Integrated Data Analytics
+> - gcid: /organization/usgs-core-science-analytics-synthesis-libraries
+>   term: 'USGS Core Science Analytics, Synthesis, and Libraries'
+141a218,219
+> - gcid: /organization/us-army-corp-engineers-waterborne-commerce-statistics-center
+>   term: Waterborne Commerce Statistics Center

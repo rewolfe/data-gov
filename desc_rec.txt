@@ -1,0 +1,1002 @@
+ [0]  (root)
+   [1] csw:DescribeRecordResponse (tag)
+       attr [0] : xmlns:soapenv => http://www.w3.org/2003/05/soap-envelope
+            [1] : xmlns:dc => http://purl.org/dc/elements/1.1/
+            [2] : xmlns:gmd => http://www.isotc211.org/2005/gmd
+            [3] : xsi:schemaLocation => http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd
+            [4] : xmlns:srv => http://www.isotc211.org/2005/srv
+            [5] : xmlns:inspire_ds => http://inspire.ec.europa.eu/schemas/inspire_ds/1.0
+            [6] : xmlns:dct => http://purl.org/dc/terms/
+            [7] : xmlns:xlink => http://www.w3.org/1999/xlink
+            [8] : xmlns:fgdc => http://www.opengis.net/cat/csw/csdgm
+            [9] : xmlns:atom => http://www.w3.org/2005/Atom
+            [10] : xmlns:ows => http://www.opengis.net/ows
+            [11] : xmlns:sitemap => http://www.sitemaps.org/schemas/sitemap/0.9
+            [12] : xmlns:gml => http://www.opengis.net/gml
+            [13] : xmlns:inspire_common => http://inspire.ec.europa.eu/schemas/common/1.0
+            [14] : xmlns:dif => http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/
+            [15] : xmlns:csw => http://www.opengis.net/cat/csw/2.0.2
+            [16] : xmlns:ogc => http://www.opengis.net/ogc
+            [17] : xmlns:rdf => http://www.w3.org/1999/02/22-rdf-syntax-ns#
+            [18] : xmlns:os => http://a9.com/-/spec/opensearch/1.1/
+            [19] : xmlns:gco => http://www.isotc211.org/2005/gco
+            [20] : xmlns:apiso => http://www.opengis.net/cat/csw/apiso/1.0
+            [21] : xmlns:xsi => http://www.w3.org/2001/XMLSchema-instance
+            [22] : xmlns:xs => http://www.w3.org/2001/XMLSchema
+     [2] csw:SchemaComponent (tag)
+         attr [0] : schemaLanguage => XMLSCHEMA
+              [1] : targetNamespace => http://www.opengis.net/cat/csw/2.0.2
+       [3] xs:schema (tag)
+           attr [0] : id => csw-record
+                [1] : targetNamespace => http://www.opengis.net/cat/csw/2.0.2
+                [2] : elementFormDefault => qualified
+                [3] : version => 2.0.2 2010-01-22
+         [4] xs:annotation (tag)
+           [5] xs:appinfo (tag)
+             [6] dc:identifier (tag)
+                 text : http://schemas.opengis.net/csw/2.0.2/record.xsd
+           [5] xs:documentation (tag)
+               attr [0] : xml:lang => en
+               text : This schema defines the basic record types that must be supported by all CSW implementations. These correspond to full, summary, and brief views based on DCMI metadata terms. CSW is an OGC Standard. Copyright (c) 2004,2010 Open Geospatial Consortium, Inc. All Rights Reserved. To obtain additional rights of use, visit http://www.opengeospatial.org/legal/ .
+         [4] xs:import (tag)
+             attr [0] : schemaLocation => rec-dcterms.xsd
+                  [1] : namespace => http://purl.org/dc/terms/
+         [4] xs:import (tag)
+             attr [0] : namespace => http://purl.org/dc/elements/1.1/
+                  [1] : schemaLocation => rec-dcmes.xsd
+         [4] xs:import (tag)
+             attr [0] : namespace => http://www.opengis.net/ows
+                  [1] : schemaLocation => ../../ows/1.0.0/owsAll.xsd
+         [4] xs:element (tag)
+             attr [0] : id => AbstractRecord
+                  [1] : type => csw:AbstractRecordType
+                  [2] : name => AbstractRecord
+                  [3] : abstract => true
+         [4] xs:complexType (tag)
+             attr [0] : abstract => true
+                  [1] : name => AbstractRecordType
+                  [2] : id => AbstractRecordType
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => csw:AbstractRecord
+                  [1] : type => csw:DCMIRecordType
+                  [2] : name => DCMIRecord
+         [4] xs:complexType (tag)
+             attr [0] : name => DCMIRecordType
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 attr [0] : xml:lang => en
+                 text : This type encapsulates all of the standard DCMI metadata terms, including the Dublin Core refinements; these terms may be mapped to the profile-specific information model.
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => csw:AbstractRecordType
+               [7] xs:sequence (tag)
+                 [8] xs:group (tag)
+                     attr [0] : ref => dct:DCMI-terms
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => csw:AbstractRecord
+                  [1] : name => BriefRecord
+                  [2] : type => csw:BriefRecordType
+         [4] xs:complexType (tag)
+             attr [0] : final => #all
+                  [1] : name => BriefRecordType
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 attr [0] : xml:lang => en
+                 text : This type defines a brief representation of the common record format. It extends AbstractRecordType to include only the dc:identifier and dc:type properties.
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => csw:AbstractRecordType
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : ref => dc:identifier
+                          [1] : maxOccurs => unbounded
+                          [2] : minOccurs => 1
+                 [8] xs:element (tag)
+                     attr [0] : ref => dc:title
+                          [1] : minOccurs => 1
+                          [2] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : ref => dc:type
+                 [8] xs:element (tag)
+                     attr [0] : ref => ows:BoundingBox
+                          [1] : minOccurs => 0
+                          [2] : maxOccurs => unbounded
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => csw:AbstractRecord
+                  [1] : type => csw:SummaryRecordType
+                  [2] : name => SummaryRecord
+         [4] xs:complexType (tag)
+             attr [0] : final => #all
+                  [1] : name => SummaryRecordType
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 attr [0] : xml:lang => en
+                 text : This type defines a summary representation of the common record format. It extends AbstractRecordType to include the core properties.
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => csw:AbstractRecordType
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : maxOccurs => unbounded
+                          [1] : minOccurs => 1
+                          [2] : ref => dc:identifier
+                 [8] xs:element (tag)
+                     attr [0] : ref => dc:title
+                          [1] : minOccurs => 1
+                          [2] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : ref => dc:type
+                 [8] xs:element (tag)
+                     attr [0] : ref => dc:subject
+                          [1] : maxOccurs => unbounded
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : ref => dc:format
+                 [8] xs:element (tag)
+                     attr [0] : ref => dc:relation
+                          [1] : maxOccurs => unbounded
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : ref => dct:modified
+                 [8] xs:element (tag)
+                     attr [0] : ref => dct:abstract
+                          [1] : maxOccurs => unbounded
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : ref => dct:spatial
+                          [1] : maxOccurs => unbounded
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : ref => ows:BoundingBox
+                          [1] : minOccurs => 0
+                          [2] : maxOccurs => unbounded
+         [4] xs:element (tag)
+             attr [0] : type => csw:RecordType
+                  [1] : name => Record
+                  [2] : substitutionGroup => csw:AbstractRecord
+         [4] xs:complexType (tag)
+             attr [0] : final => #all
+                  [1] : name => RecordType
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 attr [0] : xml:lang => en
+                 text : This type extends DCMIRecordType to add ows:BoundingBox; it may be used to specify a spatial envelope for the catalogued resource.
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => csw:DCMIRecordType
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : name => AnyText
+                          [3] : type => csw:EmptyType
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : ref => ows:BoundingBox
+         [4] xs:complexType (tag)
+             attr [0] : name => EmptyType
+     [2] csw:SchemaComponent (tag)
+         attr [0] : schemaLanguage => XMLSCHEMA
+              [1] : targetNamespace => http://www.isotc211.org/2005/gmd
+              [2] : parentSchema => gmd.xsd
+       [3] xs:schema (tag)
+           attr [0] : version => 0.1
+                [1] : elementFormDefault => qualified
+                [2] : targetNamespace => http://www.isotc211.org/2005/gmd
+         [4] xs:annotation (tag)
+           [5] xs:documentation (tag)
+               text : This file was generated from ISO TC/211 UML class diagrams == 01-26-2005 12:40:05 ======
+         [4] xs:import (tag)
+             attr [0] : namespace => http://www.isotc211.org/2005/gco
+                  [1] : schemaLocation => ../gco/gco.xsd
+         [4] xs:include (tag)
+             attr [0] : schemaLocation => ../gmd/constraints.xsd
+         [4] xs:include (tag)
+             attr [0] : schemaLocation => ../gmd/distribution.xsd
+         [4] xs:include (tag)
+             attr [0] : schemaLocation => ../gmd/maintenance.xsd
+         [4] xs:complexType (tag)
+             attr [0] : abstract => true
+                  [1] : name => AbstractMD_Identification_Type
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 text : Basic information about data
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : type => gmd:CI_Citation_PropertyType
+                          [1] : name => citation
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => abstract
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => purpose
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : name => credit
+                          [3] : type => gco:CharacterString_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : name => status
+                          [1] : type => gmd:MD_ProgressCode_PropertyType
+                          [2] : minOccurs => 0
+                          [3] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : type => gmd:CI_ResponsibleParty_PropertyType
+                          [3] : name => pointOfContact
+                 [8] xs:element (tag)
+                     attr [0] : name => resourceMaintenance
+                          [1] : type => gmd:MD_MaintenanceInformation_PropertyType
+                          [2] : minOccurs => 0
+                          [3] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : name => graphicOverview
+                          [1] : type => gmd:MD_BrowseGraphic_PropertyType
+                          [2] : maxOccurs => unbounded
+                          [3] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : name => resourceFormat
+                          [1] : type => gmd:MD_Format_PropertyType
+                          [2] : minOccurs => 0
+                          [3] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : type => gmd:MD_Keywords_PropertyType
+                          [1] : name => descriptiveKeywords
+                          [2] : maxOccurs => unbounded
+                          [3] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : maxOccurs => unbounded
+                          [1] : minOccurs => 0
+                          [2] : name => resourceSpecificUsage
+                          [3] : type => gmd:MD_Usage_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : type => gmd:MD_Constraints_PropertyType
+                          [3] : name => resourceConstraints
+                 [8] xs:element (tag)
+                     attr [0] : type => gmd:MD_AggregateInformation_PropertyType
+                          [1] : name => aggregationInfo
+                          [2] : maxOccurs => unbounded
+                          [3] : minOccurs => 0
+         [4] xs:element (tag)
+             attr [0] : name => AbstractMD_Identification
+                  [1] : type => gmd:AbstractMD_Identification_Type
+                  [2] : abstract => true
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_Identification_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:AbstractMD_Identification
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_BrowseGraphic_Type
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 text : Graphic that provides an illustration of the dataset (should include a legend for the graphic)
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => fileName
+                 [8] xs:element (tag)
+                     attr [0] : name => fileDescription
+                          [1] : type => gco:CharacterString_PropertyType
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : name => fileType
+                          [1] : type => gco:CharacterString_PropertyType
+                          [2] : minOccurs => 0
+         [4] xs:element (tag)
+             attr [0] : type => gmd:MD_BrowseGraphic_Type
+                  [1] : name => MD_BrowseGraphic
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_BrowseGraphic_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_BrowseGraphic
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_DataIdentification_Type
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gmd:AbstractMD_Identification_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : name => spatialRepresentationType
+                          [3] : type => gmd:MD_SpatialRepresentationTypeCode_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : name => spatialResolution
+                          [1] : type => gmd:MD_Resolution_PropertyType
+                          [2] : minOccurs => 0
+                          [3] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : maxOccurs => unbounded
+                          [1] : name => language
+                          [2] : type => gco:CharacterString_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : type => gmd:MD_CharacterSetCode_PropertyType
+                          [3] : name => characterSet
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : type => gmd:MD_TopicCategoryCode_PropertyType
+                          [3] : name => topicCategory
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : name => environmentDescription
+                          [2] : type => gco:CharacterString_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : name => extent
+                          [1] : type => gmd:EX_Extent_PropertyType
+                          [2] : minOccurs => 0
+                          [3] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : name => supplementalInformation
+                          [1] : type => gco:CharacterString_PropertyType
+                          [2] : minOccurs => 0
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => gmd:AbstractMD_Identification
+                  [1] : type => gmd:MD_DataIdentification_Type
+                  [2] : name => MD_DataIdentification
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_DataIdentification_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_DataIdentification
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_ServiceIdentification_Type
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 text : See 19119 for further info
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gmd:AbstractMD_Identification_Type
+         [4] xs:element (tag)
+             attr [0] : type => gmd:MD_ServiceIdentification_Type
+                  [1] : name => MD_ServiceIdentification
+                  [2] : substitutionGroup => gmd:AbstractMD_Identification
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_ServiceIdentification_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_ServiceIdentification
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_RepresentativeFraction_Type
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : name => denominator
+                          [1] : type => gco:Integer_PropertyType
+         [4] xs:element (tag)
+             attr [0] : name => MD_RepresentativeFraction
+                  [1] : type => gmd:MD_RepresentativeFraction_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_RepresentativeFraction_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_RepresentativeFraction
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_Usage_Type
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 text : Brief description of ways in which the dataset is currently used.
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : name => specificUsage
+                          [1] : type => gco:CharacterString_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : type => gco:DateTime_PropertyType
+                          [2] : name => usageDateTime
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : name => userDeterminedLimitations
+                          [2] : type => gco:CharacterString_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : maxOccurs => unbounded
+                          [1] : name => userContactInfo
+                          [2] : type => gmd:CI_ResponsibleParty_PropertyType
+         [4] xs:element (tag)
+             attr [0] : name => MD_Usage
+                  [1] : type => gmd:MD_Usage_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_Usage_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_Usage
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_Keywords_Type
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 text : Keywords, their type and reference source
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => keyword
+                          [2] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : type => gmd:MD_KeywordTypeCode_PropertyType
+                          [1] : name => type
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : name => thesaurusName
+                          [2] : type => gmd:CI_Citation_PropertyType
+         [4] xs:element (tag)
+             attr [0] : name => MD_Keywords
+                  [1] : type => gmd:MD_Keywords_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_Keywords_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_Keywords
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => DS_Association_Type
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+         [4] xs:element (tag)
+             attr [0] : name => DS_Association
+                  [1] : type => gmd:DS_Association_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => DS_Association_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:DS_Association
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_AggregateInformation_Type
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 text : Encapsulates the dataset aggregation information
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : name => aggregateDataSetName
+                          [1] : type => gmd:CI_Citation_PropertyType
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : name => aggregateDataSetIdentifier
+                          [2] : type => gmd:MD_Identifier_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : type => gmd:DS_AssociationTypeCode_PropertyType
+                          [1] : name => associationType
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : type => gmd:DS_InitiativeTypeCode_PropertyType
+                          [2] : name => initiativeType
+         [4] xs:element (tag)
+             attr [0] : name => MD_AggregateInformation
+                  [1] : type => gmd:MD_AggregateInformation_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_AggregateInformation_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_AggregateInformation
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_Resolution_Type
+           [5] xs:choice (tag)
+             [6] xs:element (tag)
+                 attr [0] : name => equivalentScale
+                      [1] : type => gmd:MD_RepresentativeFraction_PropertyType
+             [6] xs:element (tag)
+                 attr [0] : name => distance
+                      [1] : type => gco:Distance_PropertyType
+         [4] xs:element (tag)
+             attr [0] : name => MD_Resolution
+                  [1] : type => gmd:MD_Resolution_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_Resolution_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_Resolution
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:simpleType (tag)
+             attr [0] : name => MD_TopicCategoryCode_Type
+           [5] xs:annotation (tag)
+             [6] xs:documentation (tag)
+                 text : High-level geospatial data thematic classification to assist in the grouping and search of available geospatial datasets
+           [5] xs:restriction (tag)
+               attr [0] : base => xs:string
+             [6] xs:enumeration (tag)
+                 attr [0] : value => farming
+             [6] xs:enumeration (tag)
+                 attr [0] : value => biota
+             [6] xs:enumeration (tag)
+                 attr [0] : value => boundaries
+             [6] xs:enumeration (tag)
+                 attr [0] : value => climatologyMeteorologyAtmosphere
+             [6] xs:enumeration (tag)
+                 attr [0] : value => economy
+             [6] xs:enumeration (tag)
+                 attr [0] : value => elevation
+             [6] xs:enumeration (tag)
+                 attr [0] : value => environment
+             [6] xs:enumeration (tag)
+                 attr [0] : value => geoscientificInformation
+             [6] xs:enumeration (tag)
+                 attr [0] : value => health
+             [6] xs:enumeration (tag)
+                 attr [0] : value => imageryBaseMapsEarthCover
+             [6] xs:enumeration (tag)
+                 attr [0] : value => intelligenceMilitary
+             [6] xs:enumeration (tag)
+                 attr [0] : value => inlandWaters
+             [6] xs:enumeration (tag)
+                 attr [0] : value => location
+             [6] xs:enumeration (tag)
+                 attr [0] : value => oceans
+             [6] xs:enumeration (tag)
+                 attr [0] : value => planningCadastre
+             [6] xs:enumeration (tag)
+                 attr [0] : value => society
+             [6] xs:enumeration (tag)
+                 attr [0] : value => structure
+             [6] xs:enumeration (tag)
+                 attr [0] : value => transportation
+             [6] xs:enumeration (tag)
+                 attr [0] : value => utilitiesCommunication
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => gco:CharacterString
+                  [1] : type => gmd:MD_TopicCategoryCode_Type
+                  [2] : name => MD_TopicCategoryCode
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_TopicCategoryCode_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_TopicCategoryCode
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:element (tag)
+             attr [0] : type => gco:CodeListValue_Type
+                  [1] : name => MD_CharacterSetCode
+                  [2] : substitutionGroup => gco:CharacterString
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_CharacterSetCode_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_CharacterSetCode
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => gco:CharacterString
+                  [1] : name => MD_SpatialRepresentationTypeCode
+                  [2] : type => gco:CodeListValue_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_SpatialRepresentationTypeCode_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_SpatialRepresentationTypeCode
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:element (tag)
+             attr [0] : name => MD_ProgressCode
+                  [1] : type => gco:CodeListValue_Type
+                  [2] : substitutionGroup => gco:CharacterString
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_ProgressCode_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_ProgressCode
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => gco:CharacterString
+                  [1] : name => MD_KeywordTypeCode
+                  [2] : type => gco:CodeListValue_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => MD_KeywordTypeCode_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:MD_KeywordTypeCode
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:element (tag)
+             attr [0] : name => DS_AssociationTypeCode
+                  [1] : type => gco:CodeListValue_Type
+                  [2] : substitutionGroup => gco:CharacterString
+         [4] xs:complexType (tag)
+             attr [0] : name => DS_AssociationTypeCode_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:DS_AssociationTypeCode
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => gco:CharacterString
+                  [1] : type => gco:CodeListValue_Type
+                  [2] : name => DS_InitiativeTypeCode
+         [4] xs:complexType (tag)
+             attr [0] : name => DS_InitiativeTypeCode_PropertyType
+           [5] xs:sequence (tag)
+               attr [0] : minOccurs => 0
+             [6] xs:element (tag)
+                 attr [0] : ref => gmd:DS_InitiativeTypeCode
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+     [2] csw:SchemaComponent (tag)
+         attr [0] : parentSchema => gmd.xsd
+              [1] : targetNamespace => http://www.isotc211.org/2005/gmd
+              [2] : schemaLanguage => XMLSCHEMA
+       [3] xs:schema (tag)
+           attr [0] : targetNamespace => http://www.isotc211.org/2005/srv
+                [1] : elementFormDefault => qualified
+                [2] : version => 0.1
+         [4] xs:annotation (tag)
+           [5] xs:documentation (tag)
+               text : This file was generated from ISO TC/211 UML class diagrams == 10-13-2006 11:14:04 ======
+         [4] xs:import (tag)
+             attr [0] : namespace => http://www.isotc211.org/2005/gmd
+                  [1] : schemaLocation => ../gmd/identification.xsd
+         [4] xs:import (tag)
+             attr [0] : namespace => http://www.isotc211.org/2005/gco
+                  [1] : schemaLocation => ../gco/gco.xsd
+         [4] xs:include (tag)
+             attr [0] : schemaLocation => ../srv/serviceModel.xsd
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_Parameter_Type
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : name => name
+                          [1] : type => gco:MemberName_Type
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : type => srv:SV_ParameterDirection_PropertyType
+                          [2] : name => direction
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => description
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => optionality
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:Boolean_PropertyType
+                          [1] : name => repeatability
+                 [8] xs:element (tag)
+                     attr [0] : name => valueType
+                          [1] : type => gco:TypeName_PropertyType
+         [4] xs:element (tag)
+             attr [0] : type => srv:SV_Parameter_Type
+                  [1] : name => SV_Parameter
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_Parameter_PropertyType
+           [5] xs:sequence (tag)
+             [6] xs:element (tag)
+                 attr [0] : minOccurs => 0
+                      [1] : ref => srv:SV_Parameter
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_OperationMetadata_Type
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => operationName
+                 [8] xs:element (tag)
+                     attr [0] : name => DCP
+                          [1] : type => srv:DCPList_PropertyType
+                          [2] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => operationDescription
+                          [2] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : type => gco:CharacterString_PropertyType
+                          [2] : name => invocationName
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : maxOccurs => unbounded
+                          [2] : type => srv:SV_Parameter_PropertyType
+                          [3] : name => parameters
+                 [8] xs:element (tag)
+                     attr [0] : name => connectPoint
+                          [1] : type => gmd:CI_OnlineResource_PropertyType
+                          [2] : maxOccurs => unbounded
+                 [8] xs:element (tag)
+                     attr [0] : name => dependsOn
+                          [1] : type => srv:SV_OperationMetadata_PropertyType
+                          [2] : maxOccurs => unbounded
+                          [3] : minOccurs => 0
+         [4] xs:element (tag)
+             attr [0] : type => srv:SV_OperationMetadata_Type
+                  [1] : name => SV_OperationMetadata
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_OperationMetadata_PropertyType
+           [5] xs:sequence (tag)
+             [6] xs:element (tag)
+                 attr [0] : ref => srv:SV_OperationMetadata
+                      [1] : minOccurs => 0
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_ServiceIdentification_Type
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gmd:AbstractMD_Identification_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : name => serviceType
+                          [1] : type => gco:GenericName_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : name => serviceTypeVersion
+                          [1] : type => gco:CharacterString_PropertyType
+                          [2] : maxOccurs => unbounded
+                          [3] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : name => accessProperties
+                          [2] : type => gmd:MD_StandardOrderProcess_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : type => gmd:MD_Constraints_PropertyType
+                          [2] : name => restrictions
+                 [8] xs:element (tag)
+                     attr [0] : maxOccurs => unbounded
+                          [1] : minOccurs => 0
+                          [2] : name => keywords
+                          [3] : type => gmd:MD_Keywords_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : type => gmd:EX_Extent_PropertyType
+                          [1] : name => extent
+                          [2] : maxOccurs => unbounded
+                          [3] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : type => srv:SV_CoupledResource_PropertyType
+                          [1] : name => coupledResource
+                          [2] : maxOccurs => unbounded
+                          [3] : minOccurs => 0
+                 [8] xs:element (tag)
+                     attr [0] : name => couplingType
+                          [1] : type => srv:SV_CouplingType_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : maxOccurs => unbounded
+                          [1] : type => srv:SV_OperationMetadata_PropertyType
+                          [2] : name => containsOperations
+                 [8] xs:element (tag)
+                     attr [0] : name => operatesOn
+                          [1] : type => gmd:MD_DataIdentification_PropertyType
+                          [2] : maxOccurs => unbounded
+                          [3] : minOccurs => 0
+         [4] xs:element (tag)
+             attr [0] : name => SV_ServiceIdentification
+                  [1] : type => srv:SV_ServiceIdentification_Type
+                  [2] : substitutionGroup => gmd:AbstractMD_Identification
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_ServiceIdentification_PropertyType
+           [5] xs:sequence (tag)
+             [6] xs:element (tag)
+                 attr [0] : minOccurs => 0
+                      [1] : ref => srv:SV_ServiceIdentification
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_OperationChain_Type
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => name
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : name => description
+                          [2] : type => gco:CharacterString_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : name => operation
+                          [1] : type => srv:SV_Operation_PropertyType
+                          [2] : maxOccurs => unbounded
+         [4] xs:element (tag)
+             attr [0] : name => SV_OperationChain
+                  [1] : type => srv:SV_OperationChain_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_OperationChain_PropertyType
+           [5] xs:sequence (tag)
+             [6] xs:element (tag)
+                 attr [0] : minOccurs => 0
+                      [1] : ref => srv:SV_OperationChain
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_OperationChainMetadata_Type
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => name
+                 [8] xs:element (tag)
+                     attr [0] : minOccurs => 0
+                          [1] : type => gco:CharacterString_PropertyType
+                          [2] : name => description
+                 [8] xs:element (tag)
+                     attr [0] : maxOccurs => unbounded
+                          [1] : name => operation
+                          [2] : type => srv:SV_OperationMetadata_PropertyType
+         [4] xs:element (tag)
+             attr [0] : name => SV_OperationChainMetadata
+                  [1] : type => srv:SV_OperationChainMetadata_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_OperationChainMetadata_PropertyType
+           [5] xs:sequence (tag)
+             [6] xs:element (tag)
+                 attr [0] : minOccurs => 0
+                      [1] : ref => srv:SV_OperationChainMetadata
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_CoupledResource_Type
+           [5] xs:complexContent (tag)
+             [6] xs:extension (tag)
+                 attr [0] : base => gco:AbstractObject_Type
+               [7] xs:sequence (tag)
+                 [8] xs:element (tag)
+                     attr [0] : name => operationName
+                          [1] : type => gco:CharacterString_PropertyType
+                 [8] xs:element (tag)
+                     attr [0] : type => gco:CharacterString_PropertyType
+                          [1] : name => identifier
+                 [8] xs:element (tag)
+                     attr [0] : ref => gco:ScopedName
+                          [1] : minOccurs => 0
+                          [2] : maxOccurs => 1
+         [4] xs:element (tag)
+             attr [0] : type => srv:SV_CoupledResource_Type
+                  [1] : name => SV_CoupledResource
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_CoupledResource_PropertyType
+           [5] xs:sequence (tag)
+             [6] xs:element (tag)
+                 attr [0] : ref => srv:SV_CoupledResource
+                      [1] : minOccurs => 0
+           [5] xs:attributeGroup (tag)
+               attr [0] : ref => gco:ObjectReference
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:simpleType (tag)
+             attr [0] : name => SV_ParameterDirection_Type
+           [5] xs:restriction (tag)
+               attr [0] : base => xs:string
+             [6] xs:enumeration (tag)
+                 attr [0] : value => in
+             [6] xs:enumeration (tag)
+                 attr [0] : value => out
+             [6] xs:enumeration (tag)
+                 attr [0] : value => in/out
+         [4] xs:element (tag)
+             attr [0] : name => SV_ParameterDirection
+                  [1] : type => srv:SV_ParameterDirection_Type
+                  [2] : substitutionGroup => gco:CharacterString
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_ParameterDirection_PropertyType
+           [5] xs:sequence (tag)
+             [6] xs:element (tag)
+                 attr [0] : minOccurs => 0
+                      [1] : ref => srv:SV_ParameterDirection
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => gco:CharacterString
+                  [1] : name => DCPList
+                  [2] : type => gco:CodeListValue_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => DCPList_PropertyType
+           [5] xs:sequence (tag)
+             [6] xs:element (tag)
+                 attr [0] : minOccurs => 0
+                      [1] : ref => srv:DCPList
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason
+         [4] xs:element (tag)
+             attr [0] : substitutionGroup => gco:CharacterString
+                  [1] : name => SV_CouplingType
+                  [2] : type => gco:CodeListValue_Type
+         [4] xs:complexType (tag)
+             attr [0] : name => SV_CouplingType_PropertyType
+           [5] xs:sequence (tag)
+             [6] xs:element (tag)
+                 attr [0] : minOccurs => 0
+                      [1] : ref => srv:SV_CouplingType
+           [5] xs:attribute (tag)
+               attr [0] : ref => gco:nilReason

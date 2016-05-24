@@ -1,0 +1,143 @@
+---
+- gcid: /organization/us-department-health-human-services-agency-healthcare-research-quality
+  term: Agency for Healthcare Research and Quality
+- gcid: /organization/us-department-health-human-services-agency-healthcare-research-quality
+  term: 'Agency for Healthcare Research and Quality, Department of Health & Human Services'
+- gcid: /organization/us-department-agriculture-agricultural-marketing-service
+  term: 'Agricultural Marketing Service, Department of Agriculture'
+- gcid: /organization/agricultural-research-service
+  term: Agricultural Research Service
+- gcid: /organization/agricultural-research-service
+  term: 'Agricultural Research Service, Department of Agriculture'
+- gcid: /organization/agricultural-research-service
+  term: 'Agricultural Research Service, U.S. Department of Agriculture'
+- gcid: /organization/us-states-department-agriculture-animal-plant-health-inspection-service
+  term: Animal and Plant Health Inspection Service
+- gcid: /organization/us-states-department-agriculture-animal-plant-health-inspection-service
+  term: 'Animal and Plant Health Inspection Service, Department of Agriculture'
+- gcid: /organization/argonne-national-laboratory
+  term: Argonne National Laboratory
+- gcid: /organization/centers-disease-control-and-prevention
+  term: Centers for Disease Control and Prevention
+- gcid: /organization/centers-disease-control-and-prevention
+  term: 'Centers for Disease Control and Prevention, Department of Health & Human Services'
+- gcid: /organization/us-department-health-human-services-centers-medicare-medicaid-services
+  term: Centers for Medicare & Medicaid Services
+- gcid: /organization/santa-clara-university-department-civil-engineering
+  term: 'Civil Engineering Department - Santa Clara University'
+- gcid: /organization/university-washington-climate-impacts-group
+  term: 'Climate Impacts Group, University of Washington, College of the Environment'
+- gcid: /organization/climate-prediction-center
+  term: 'Climate Prediction Center, NOAA'
+- gcid: /organization/national-marine-protected-areas-center
+  term: 'Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), Ocean and Coastal Resource Management (OCRM), National Marine Protected Areas Center (MPAC)'
+- gcid: /organization/national-climatic-data-center
+  term: 'DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce'
+- gcid: /organization/national-geophysical-data-center
+  term: DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center
+- gcid: /organization/national-geophysical-data-center
+  term: 'DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S. Department of Commerce'
+- gcid: /organization/economic-research-service
+  term: 'Economic Research Service, Department of Agriculture'
+- gcid: /organization/economic-research-service
+  term: 'Economic Research Service, U.S. Department of Agriculture'
+- gcid: /organization/economic-research-service
+  term: 'Economic Research Service, US Department of Agriculture'
+- gcid: /organization/us-environmental-protection-agency
+  term: Environmental Protection Agency
+- gcid: /organization/us-department-agriculture-farm-service-agency
+  term: 'Farm Service Agency, Department of Agriculture'
+- gcid: /organization/federal-aviation-administration
+  term: 'Federal Aviation Administration (Aeronautical Information Services, ATA-100)'
+- gcid: /organization/federal-emergency-management-agency
+  term: Federal Emergency Management Agency
+- gcid: /organization/federal-highway-administration
+  term: Federal Highway Adimnistration (FHWA)
+- gcid: /organization/federal-highway-administration
+  term: Federal Highway Administration
+- gcid: /organization/federal-highway-administration
+  term: Federal Highway Administration (FHWA)
+- gcid: /organization/federal-transit-administration
+  term: Federal Transit Administration
+- gcid: /organization/federal-highway-administration
+  term: FHWA
+- gcid: /organization/food-nutrition-service
+  term: Food and Nutrition Service
+- gcid: /organization/food-nutrition-service
+  term: 'Food and Nutrition Service, Department of Agriculture'
+- gcid: /organization/us-department-agriculture-foreign-agricultural-service
+  term: 'Foreign Agricultural Service, Department of Agriculture'
+- gcid: /organization/georgia-institute-technology
+  term: Georgia Tech
+- gcid: /organization/natural-resources-canada
+  term: 'Government of Canada, Natural Resources Canada, Canada Centre for Remote Sensing, The Atlas of Canada'
+- gcid: /organization/university-south-carolina-hazards-vulnerability-research-institute
+  term: Hazards and Vulnerability Research Institute
+- gcid: /organization/goddard-space-flight-center
+  term: NASA GSFC
+- gcid: /organization/national-aeronautics-space-administration
+  term: National Aeronautics and Space Administration
+- gcid: /organization/national-agricultural-statistics-service
+  term: 'National Agricultural Statistics Service, Department of Agriculture'
+- gcid: /organization/national-renewable-energy-laboratory
+  term: National Renewable Energy Laboratory (NREL)
+- gcid: /organization/climate-data-record-program
+  term: NOAA Climate Data Record Program (CDRP)
+- gcid: /organization/national-oceanic-atmospheric-administration-national-marine-fisheries-service
+  term: NOAA Fisheries Headquarters
+- gcid: /organization/national-oceanic-atmospheric-administration-great-lakes-environmental-research-laboratory
+  term: NOAA/Great Lakes Environmental Research Laboratory
+- gcid: /organization/natural-resources-conservation-service
+  term: NRCS
+- gcid: /organization/us-department-energy-energy-incentive-programs
+  term: Office of Energy Efficiency & Renewable Energy
+- gcid: /organization/oregon-state-university
+  term: Oregon State University
+- gcid: /organization/us-department-transportation-pipeline-hazardous-materials-safety-administration
+  term: Pipeline and Hazardous Materials Safety Administration
+- gcid: /organization/us-department-transportation-research-innovative-technology-administration
+  term: Research and Innovative Technology Administration
+- gcid: /organization/us-department-health-human-services-substance-abuse-mental-health-services-administration
+  term: Substance Abuse & Mental Health Services Administration
+- gcid: /organization/texas-tech-university
+  term: Texas Tech University
+- gcid: /organization/us-geological-survey
+  term: United States Geological Survey
+- gcid: /organization/university-alaska-fairbanks
+  term: University of Alaska Fairbanks
+- gcid: /organization/university-idaho
+  term: University of Idaho
+- gcid: /organization/us-army-corps-engineers
+  term: US Army Corps of Engineers (USACE)
+- gcid: /organization/us-department-housing-office-urban-development-community-planning-development
+  term: US Bureau of the Census
+- gcid: /organization/economic-research-service
+  term: USDA Economic Research Service
+- gcid: /organization/us-department-energy-energy-incentive-programs
+  term: U.S. Department of Energy (DOE)
+- gcid: /organization/us-department-housing-office-urban-development-community-planning-development
+  term: US Department of Housing and Urban Development
+- gcid: /organization/us-energy-information-administration
+  term: U.S. Energy Information Administration
+- gcid: /organization/us-energy-information-administration
+  term: U.S. Energy Information Administration (EIA)
+- gcid: /organization/us-environmental-protection-agency
+  term: 'US Environmental Protection Agency, Research Triangle Park'
+- gcid: /organization/us-fish-wildlife-service
+  term: U.S. Fish and Wildlife Service
+- gcid: /organization/us-forest-service-southern-research-station
+  term: 'U.S. Forest Service, Southern Research Station'
+- gcid: /organization/us-geological-survey
+  term: U.S. Geological Survey
+- gcid: /organization/united-states-geological-survey-alaska-science-center
+  term: 'U.S. Geological Survey - Alaska Science Center'
+- gcid: /organization/oregon-state-college-oceanic-atmospheric-sciences
+  term: 'U.S. Geological Survey / College of Oceanic and Atmospheric Sciences, Oregon State University'
+- gcid: /organization/earth-resources-observation-science-center
+  term: U.S. Geological Survey Earth Resources Observation and Science (EROS) Center
+- gcid: /organization/us-geological-survey
+  term: USGS
+- gcid: /organization/national-oceanographic-data-center
+  term: US National Oceanographic Data Center
+- gcid: /organization/woods-hole-oceanographic-institution
+  term: Woods Hole Oceanographic Institution

@@ -1,0 +1,520 @@
+ [0]  (root)
+   [1] csw:Capabilities (tag)
+       attr [0] : xmlns:xsi => http://www.w3.org/2001/XMLSchema-instance
+            [1] : xmlns:rdf => http://www.w3.org/1999/02/22-rdf-syntax-ns#
+            [2] : xmlns:dct => http://purl.org/dc/terms/
+            [3] : version => 2.0.2
+            [4] : xmlns:sitemap => http://www.sitemaps.org/schemas/sitemap/0.9
+            [5] : xmlns:ows => http://www.opengis.net/ows
+            [6] : xmlns:dif => http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/
+            [7] : xmlns:atom => http://www.w3.org/2005/Atom
+            [8] : xmlns:soapenv => http://www.w3.org/2003/05/soap-envelope
+            [9] : xmlns:gco => http://www.isotc211.org/2005/gco
+            [10] : xmlns:inspire_common => http://inspire.ec.europa.eu/schemas/common/1.0
+            [11] : xmlns:inspire_ds => http://inspire.ec.europa.eu/schemas/inspire_ds/1.0
+            [12] : xmlns:os => http://a9.com/-/spec/opensearch/1.1/
+            [13] : xmlns:gml => http://www.opengis.net/gml
+            [14] : xsi:schemaLocation => http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd
+            [15] : xmlns:apiso => http://www.opengis.net/cat/csw/apiso/1.0
+            [16] : xmlns:xlink => http://www.w3.org/1999/xlink
+            [17] : xmlns:dc => http://purl.org/dc/elements/1.1/
+            [18] : xmlns:fgdc => http://www.opengis.net/cat/csw/csdgm
+            [19] : xmlns:csw => http://www.opengis.net/cat/csw/2.0.2
+            [20] : updateSequence => 1430802056
+            [21] : xmlns:xs => http://www.w3.org/2001/XMLSchema
+            [22] : xmlns:srv => http://www.isotc211.org/2005/srv
+            [23] : xmlns:gmd => http://www.isotc211.org/2005/gmd
+            [24] : xmlns:ogc => http://www.opengis.net/ogc
+     [2] ows:ServiceIdentification (tag)
+       [3] ows:Title (tag)
+           text : CSW interface for catalog.data.gov
+       [3] ows:Abstract (tag)
+           text : This catalog contains metadata for all first-order data, services, and applications harvested from registered metadata collections with data.gov. Data may be referenced from federal, state, local, tribal, academic, commercial, or non-profit organizations.
+       [3] ows:Keywords (tag)
+         [4] ows:Keyword (tag)
+             text : national
+         [4] ows:Keyword (tag)
+             text : catalog
+         [4] ows:Keyword (tag)
+             text : data
+         [4] ows:Keyword (tag)
+             text : information
+         [4] ows:Keyword (tag)
+             text : governmental
+         [4] ows:Type (tag)
+             attr [0] : codeSpace => ISOTC211/19115
+             text : theme
+       [3] ows:ServiceType (tag)
+           attr [0] : codeSpace => OGC
+           text : CSW
+       [3] ows:ServiceTypeVersion (tag)
+           text : 2.0.2
+       [3] ows:Fees (tag)
+           text : None
+       [3] ows:AccessConstraints (tag)
+           text : None
+     [2] ows:ServiceProvider (tag)
+       [3] ows:ProviderName (tag)
+           text : U.S. General Services Administration
+       [3] ows:ProviderSite (tag)
+           attr [0] : xlink:href => http://www.gsa.gov
+                [1] : xlink:type => simple
+       [3] ows:ServiceContact (tag)
+         [4] ows:IndividualName (tag)
+             text : Data.gov Administrator
+         [4] ows:PositionName (tag)
+             text : Data.gov Site Administrator
+         [4] ows:ContactInfo (tag)
+           [5] ows:Phone (tag)
+             [6] ows:Voice (tag)
+                 text : (800)-488-3111
+             [6] ows:Facsimile (tag)
+                 text : DSN 465-1416
+           [5] ows:Address (tag)
+             [6] ows:DeliveryPoint (tag)
+                 text : 1800 F St NW
+             [6] ows:City (tag)
+                 text : Washington
+             [6] ows:AdministrativeArea (tag)
+                 text : DC
+             [6] ows:PostalCode (tag)
+                 text : 20405
+             [6] ows:Country (tag)
+                 text : USA
+             [6] ows:ElectronicMailAddress (tag)
+                 text : datagov@gsa.gov
+           [5] ows:OnlineResource (tag)
+               attr [0] : xlink:type => simple
+                    [1] : xlink:href => http://data.gov/contact
+           [5] ows:HoursOfService (tag)
+               text : 9:00am - 4:30pm ET
+           [5] ows:ContactInstructions (tag)
+               text : Preferred method through email datagov@gsa.gov or contact URL http://data.gov/contact
+         [4] ows:Role (tag)
+             attr [0] : codeSpace => ISOTC211/19115
+             text : publisher,custodian
+     [2] ows:OperationsMetadata (tag)
+       [3] ows:Operation (tag)
+           attr [0] : name => GetCapabilities
+         [4] ows:DCP (tag)
+           [5] ows:HTTP (tag)
+             [6] ows:Get (tag)
+                 attr [0] : xlink:type => simple
+                      [1] : xlink:href => http://catalog.data.gov/csw
+             [6] ows:Post (tag)
+                 attr [0] : xlink:type => simple
+                      [1] : xlink:href => http://catalog.data.gov/csw
+         [4] ows:Parameter (tag)
+             attr [0] : name => sections
+           [5] ows:Value (tag)
+               text : ServiceIdentification
+           [5] ows:Value (tag)
+               text : ServiceProvider
+           [5] ows:Value (tag)
+               text : OperationsMetadata
+           [5] ows:Value (tag)
+               text : Filter_Capabilities
+       [3] ows:Operation (tag)
+           attr [0] : name => GetRepositoryItem
+         [4] ows:DCP (tag)
+           [5] ows:HTTP (tag)
+             [6] ows:Get (tag)
+                 attr [0] : xlink:type => simple
+                      [1] : xlink:href => http://catalog.data.gov/csw
+       [3] ows:Operation (tag)
+           attr [0] : name => DescribeRecord
+         [4] ows:DCP (tag)
+           [5] ows:HTTP (tag)
+             [6] ows:Get (tag)
+                 attr [0] : xlink:href => http://catalog.data.gov/csw
+                      [1] : xlink:type => simple
+             [6] ows:Post (tag)
+                 attr [0] : xlink:type => simple
+                      [1] : xlink:href => http://catalog.data.gov/csw
+         [4] ows:Parameter (tag)
+             attr [0] : name => schemaLanguage
+           [5] ows:Value (tag)
+               text : http://www.w3.org/XML/Schema
+           [5] ows:Value (tag)
+               text : http://www.w3.org/TR/xmlschema-1/
+           [5] ows:Value (tag)
+               text : http://www.w3.org/2001/XMLSchema
+         [4] ows:Parameter (tag)
+             attr [0] : name => outputFormat
+           [5] ows:Value (tag)
+               text : application/xml
+           [5] ows:Value (tag)
+               text : application/json
+         [4] ows:Parameter (tag)
+             attr [0] : name => typeName
+           [5] ows:Value (tag)
+               text : csw:Record
+           [5] ows:Value (tag)
+               text : gmd:MD_Metadata
+       [3] ows:Operation (tag)
+           attr [0] : name => GetDomain
+         [4] ows:DCP (tag)
+           [5] ows:HTTP (tag)
+             [6] ows:Get (tag)
+                 attr [0] : xlink:href => http://catalog.data.gov/csw
+                      [1] : xlink:type => simple
+             [6] ows:Post (tag)
+                 attr [0] : xlink:href => http://catalog.data.gov/csw
+                      [1] : xlink:type => simple
+         [4] ows:Parameter (tag)
+             attr [0] : name => ParameterName
+           [5] ows:Value (tag)
+               text : GetRecords.outputFormat
+           [5] ows:Value (tag)
+               text : GetRecords.outputSchema
+           [5] ows:Value (tag)
+               text : GetRecords.CONSTRAINTLANGUAGE
+           [5] ows:Value (tag)
+               text : GetRecords.resultType
+           [5] ows:Value (tag)
+               text : GetRecords.typeNames
+           [5] ows:Value (tag)
+               text : GetRecords.ElementSetName
+           [5] ows:Value (tag)
+               text : GetCapabilities.sections
+           [5] ows:Value (tag)
+               text : GetRecordById.outputFormat
+           [5] ows:Value (tag)
+               text : GetRecordById.outputSchema
+           [5] ows:Value (tag)
+               text : GetRecordById.ElementSetName
+           [5] ows:Value (tag)
+               text : DescribeRecord.schemaLanguage
+           [5] ows:Value (tag)
+               text : DescribeRecord.outputFormat
+           [5] ows:Value (tag)
+               text : DescribeRecord.typeName
+       [3] ows:Operation (tag)
+           attr [0] : name => GetRecordById
+         [4] ows:DCP (tag)
+           [5] ows:HTTP (tag)
+             [6] ows:Get (tag)
+                 attr [0] : xlink:href => http://catalog.data.gov/csw
+                      [1] : xlink:type => simple
+             [6] ows:Post (tag)
+                 attr [0] : xlink:type => simple
+                      [1] : xlink:href => http://catalog.data.gov/csw
+         [4] ows:Parameter (tag)
+             attr [0] : name => outputFormat
+           [5] ows:Value (tag)
+               text : application/xml
+           [5] ows:Value (tag)
+               text : application/json
+         [4] ows:Parameter (tag)
+             attr [0] : name => outputSchema
+           [5] ows:Value (tag)
+               text : http://www.opengis.net/cat/csw/2.0.2
+           [5] ows:Value (tag)
+               text : http://www.isotc211.org/2005/gmd
+           [5] ows:Value (tag)
+               text : http://www.w3.org/2005/Atom
+           [5] ows:Value (tag)
+               text : http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/
+           [5] ows:Value (tag)
+               text : http://www.opengis.net/cat/csw/csdgm
+         [4] ows:Parameter (tag)
+             attr [0] : name => ElementSetName
+           [5] ows:Value (tag)
+               text : brief
+           [5] ows:Value (tag)
+               text : summary
+           [5] ows:Value (tag)
+               text : full
+       [3] ows:Operation (tag)
+           attr [0] : name => GetRecords
+         [4] ows:DCP (tag)
+           [5] ows:HTTP (tag)
+             [6] ows:Get (tag)
+                 attr [0] : xlink:href => http://catalog.data.gov/csw
+                      [1] : xlink:type => simple
+             [6] ows:Post (tag)
+                 attr [0] : xlink:type => simple
+                      [1] : xlink:href => http://catalog.data.gov/csw
+         [4] ows:Parameter (tag)
+             attr [0] : name => outputFormat
+           [5] ows:Value (tag)
+               text : application/xml
+           [5] ows:Value (tag)
+               text : application/json
+         [4] ows:Parameter (tag)
+             attr [0] : name => outputSchema
+           [5] ows:Value (tag)
+               text : http://www.opengis.net/cat/csw/2.0.2
+           [5] ows:Value (tag)
+               text : http://www.isotc211.org/2005/gmd
+           [5] ows:Value (tag)
+               text : http://www.w3.org/2005/Atom
+           [5] ows:Value (tag)
+               text : http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/
+           [5] ows:Value (tag)
+               text : http://www.opengis.net/cat/csw/csdgm
+         [4] ows:Parameter (tag)
+             attr [0] : name => CONSTRAINTLANGUAGE
+           [5] ows:Value (tag)
+               text : FILTER
+           [5] ows:Value (tag)
+               text : CQL_TEXT
+         [4] ows:Parameter (tag)
+             attr [0] : name => resultType
+           [5] ows:Value (tag)
+               text : hits
+           [5] ows:Value (tag)
+               text : results
+           [5] ows:Value (tag)
+               text : validate
+         [4] ows:Parameter (tag)
+             attr [0] : name => typeNames
+           [5] ows:Value (tag)
+               text : csw:Record
+           [5] ows:Value (tag)
+               text : gmd:MD_Metadata
+         [4] ows:Parameter (tag)
+             attr [0] : name => ElementSetName
+           [5] ows:Value (tag)
+               text : brief
+           [5] ows:Value (tag)
+               text : summary
+           [5] ows:Value (tag)
+               text : full
+         [4] ows:Constraint (tag)
+             attr [0] : name => SupportedISOQueryables
+           [5] ows:Value (tag)
+               text : apiso:DistanceValue
+           [5] ows:Value (tag)
+               text : apiso:Abstract
+           [5] ows:Value (tag)
+               text : apiso:RevisionDate
+           [5] ows:Value (tag)
+               text : apiso:Subject
+           [5] ows:Value (tag)
+               text : apiso:KeywordType
+           [5] ows:Value (tag)
+               text : apiso:Title
+           [5] ows:Value (tag)
+               text : apiso:CRS
+           [5] ows:Value (tag)
+               text : apiso:PublicationDate
+           [5] ows:Value (tag)
+               text : apiso:Type
+           [5] ows:Value (tag)
+               text : apiso:AlternateTitle
+           [5] ows:Value (tag)
+               text : apiso:BoundingBox
+           [5] ows:Value (tag)
+               text : apiso:AnyText
+           [5] ows:Value (tag)
+               text : apiso:ParentIdentifier
+           [5] ows:Value (tag)
+               text : apiso:Modified
+           [5] ows:Value (tag)
+               text : apiso:Operation
+           [5] ows:Value (tag)
+               text : apiso:Format
+           [5] ows:Value (tag)
+               text : apiso:TempExtent_end
+           [5] ows:Value (tag)
+               text : apiso:DistanceUOM
+           [5] ows:Value (tag)
+               text : apiso:OrganisationName
+           [5] ows:Value (tag)
+               text : apiso:ServiceType
+           [5] ows:Value (tag)
+               text : apiso:TempExtent_begin
+           [5] ows:Value (tag)
+               text : apiso:ResourceLanguage
+           [5] ows:Value (tag)
+               text : apiso:ServiceTypeVersion
+           [5] ows:Value (tag)
+               text : apiso:OperatesOn
+           [5] ows:Value (tag)
+               text : apiso:Denominator
+           [5] ows:Value (tag)
+               text : apiso:HasSecurityConstraints
+           [5] ows:Value (tag)
+               text : apiso:OperatesOnIdentifier
+           [5] ows:Value (tag)
+               text : apiso:GeographicDescriptionCode
+           [5] ows:Value (tag)
+               text : apiso:Language
+           [5] ows:Value (tag)
+               text : apiso:Identifier
+           [5] ows:Value (tag)
+               text : apiso:OperatesOnName
+           [5] ows:Value (tag)
+               text : apiso:TopicCategory
+           [5] ows:Value (tag)
+               text : apiso:CreationDate
+           [5] ows:Value (tag)
+               text : apiso:CouplingType
+         [4] ows:Constraint (tag)
+             attr [0] : name => AdditionalQueryables
+           [5] ows:Value (tag)
+               text : apiso:Lineage
+           [5] ows:Value (tag)
+               text : apiso:Classification
+           [5] ows:Value (tag)
+               text : apiso:Creator
+           [5] ows:Value (tag)
+               text : apiso:Relation
+           [5] ows:Value (tag)
+               text : apiso:OtherConstraints
+           [5] ows:Value (tag)
+               text : apiso:SpecificationTitle
+           [5] ows:Value (tag)
+               text : apiso:ResponsiblePartyRole
+           [5] ows:Value (tag)
+               text : apiso:SpecificationDateType
+           [5] ows:Value (tag)
+               text : apiso:Degree
+           [5] ows:Value (tag)
+               text : apiso:Contributor
+           [5] ows:Value (tag)
+               text : apiso:ConditionApplyingToAccessAndUse
+           [5] ows:Value (tag)
+               text : apiso:SpecificationDate
+           [5] ows:Value (tag)
+               text : apiso:AccessConstraints
+           [5] ows:Value (tag)
+               text : apiso:Publisher
+         [4] ows:Constraint (tag)
+             attr [0] : name => SupportedDublinCoreQueryables
+           [5] ows:Value (tag)
+               text : dc:contributor
+           [5] ows:Value (tag)
+               text : dc:source
+           [5] ows:Value (tag)
+               text : dc:language
+           [5] ows:Value (tag)
+               text : dc:title
+           [5] ows:Value (tag)
+               text : dc:subject
+           [5] ows:Value (tag)
+               text : dc:creator
+           [5] ows:Value (tag)
+               text : dc:type
+           [5] ows:Value (tag)
+               text : ows:BoundingBox
+           [5] ows:Value (tag)
+               text : dct:modified
+           [5] ows:Value (tag)
+               text : dct:abstract
+           [5] ows:Value (tag)
+               text : dc:relation
+           [5] ows:Value (tag)
+               text : dc:date
+           [5] ows:Value (tag)
+               text : dc:identifier
+           [5] ows:Value (tag)
+               text : dc:publisher
+           [5] ows:Value (tag)
+               text : dc:format
+           [5] ows:Value (tag)
+               text : csw:AnyText
+           [5] ows:Value (tag)
+               text : dc:rights
+       [3] ows:Parameter (tag)
+           attr [0] : name => version
+         [4] ows:Value (tag)
+             text : 2.0.2
+       [3] ows:Parameter (tag)
+           attr [0] : name => service
+         [4] ows:Value (tag)
+             text : CSW
+       [3] ows:Constraint (tag)
+           attr [0] : name => XPathQueryables
+         [4] ows:Value (tag)
+             text : allowed
+       [3] ows:Constraint (tag)
+           attr [0] : name => MaxRecordDefault
+         [4] ows:Value (tag)
+             text : 10
+       [3] ows:Constraint (tag)
+           attr [0] : name => PostEncoding
+         [4] ows:Value (tag)
+             text : XML
+         [4] ows:Value (tag)
+             text : SOAP
+     [2] ogc:Filter_Capabilities (tag)
+       [3] ogc:Spatial_Capabilities (tag)
+         [4] ogc:GeometryOperands (tag)
+           [5] ogc:GeometryOperand (tag)
+               text : gml:Point
+           [5] ogc:GeometryOperand (tag)
+               text : gml:LineString
+           [5] ogc:GeometryOperand (tag)
+               text : gml:Polygon
+           [5] ogc:GeometryOperand (tag)
+               text : gml:Envelope
+         [4] ogc:SpatialOperators (tag)
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => BBOX
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => Beyond
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => Contains
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => Crosses
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => Disjoint
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => DWithin
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => Equals
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => Intersects
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => Overlaps
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => Touches
+           [5] ogc:SpatialOperator (tag)
+               attr [0] : name => Within
+       [3] ogc:Scalar_Capabilities (tag)
+         [4] ogc:LogicalOperators (tag)
+         [4] ogc:ComparisonOperators (tag)
+           [5] ogc:ComparisonOperator (tag)
+               text : Between
+           [5] ogc:ComparisonOperator (tag)
+               text : EqualTo
+           [5] ogc:ComparisonOperator (tag)
+               text : LessThanEqualTo
+           [5] ogc:ComparisonOperator (tag)
+               text : GreaterThan
+           [5] ogc:ComparisonOperator (tag)
+               text : Like
+           [5] ogc:ComparisonOperator (tag)
+               text : LessThan
+           [5] ogc:ComparisonOperator (tag)
+               text : GreaterThanEqualTo
+           [5] ogc:ComparisonOperator (tag)
+               text : NotEqualTo
+           [5] ogc:ComparisonOperator (tag)
+               text : NullCheck
+         [4] ogc:ArithmeticOperators (tag)
+           [5] ogc:Functions (tag)
+             [6] ogc:FunctionNames (tag)
+               [7] ogc:FunctionName (tag)
+                   attr [0] : nArgs => 1
+                   text : length
+               [7] ogc:FunctionName (tag)
+                   attr [0] : nArgs => 1
+                   text : lower
+               [7] ogc:FunctionName (tag)
+                   attr [0] : nArgs => 1
+                   text : ltrim
+               [7] ogc:FunctionName (tag)
+                   attr [0] : nArgs => 1
+                   text : rtrim
+               [7] ogc:FunctionName (tag)
+                   attr [0] : nArgs => 1
+                   text : trim
+               [7] ogc:FunctionName (tag)
+                   attr [0] : nArgs => 1
+                   text : upper
+       [3] ogc:Id_Capabilities (tag)
+         [4] ogc:EID (tag)
+         [4] ogc:FID (tag)

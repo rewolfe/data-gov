@@ -1,0 +1,362 @@
+---
+- name: ''
+  warning: 'no uri : '
+- bureau: 007:00
+  name: Acquisition Technology and Logistics
+  uri: /organization/dod-office-under-secretary-defense-for-acquisition-technology-logistics
+  warning: no bureau code
+- bureau: 009:33
+  name: Agency for Healthcare Research and Quality
+  uri: /organization/us-department-health-human-services-agency-healthcare-research-quality
+- bureau: 005:18
+  name: Agricultural Research Service
+  uri: /organization/agricultural-research-service
+- bureau: 005:18
+  name: Agricultural Research Service, Department of Agriculture
+  uri: /organization/agricultural-research-service
+- name: Agricultural Research Service, U.S. Department of Agriculture
+  uri: /organization/agricultural-research-service
+- bureau: 005:32
+  name: Animal and Plant Health Inspection Service
+  uri: /organization/us-states-department-agriculture-animal-plant-health-inspection-service
+- bureau: 005:32
+  name: Animal and Plant Health Inspection Service, Department of Agriculture
+  uri: /organization/us-states-department-agriculture-animal-plant-health-inspection-service
+- name: Arctic Landscape Conservation Cooperative
+  uri: /organization/arctic-landscape-conservation-cooperative
+- bureau: 019:20
+  name: Argonne National Laboratory
+  uri: /organization/argonne-national-laboratory
+  warning: no bureau code
+- name: CH2MHILL Polar Services
+  uri: /organization/ch2mhill-polar-services
+- name: CIRES
+  uri: /organization/cooperative-institute-research-environmental-sciences
+- name: CIRES/University of Colorado at Boulder
+  warning: 'no uri : cires-university-colorado-at-boulder'
+- name: Center for Climatic Research, University of Wisconsin-Madison
+  uri: /organization/university-wisconsin-madison-center-climatic-research
+- bureau: 009:20
+  name: Centers for Disease Control and Prevention
+  uri: /organization/centers-disease-control-and-prevention
+- bureau: 009:38
+  name: Centers for Medicare &amp; Medicaid Services
+  uri: /organization/us-department-health-human-services-centers-medicare-medicaid-services
+- name: Civil Engineering Department - Santa Clara University
+  uri: /organization/santa-clara-university-department-civil-engineering
+- name: Climate Impacts Group, University of Washington, College of the Environment
+  uri: /organization/university-washington-climate-impacts-group
+- name: Climate Prediction Center, NOAA
+  uri: /organization/climate-prediction-center
+- name: Cold Regions Research and Engineering Laboratory
+  uri: /organization/cold-regions-research-engineering-laboratory
+- name: DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department
+    of Commerce
+  uri: /organization/noaa-national-climatic-data-center
+- name: DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center
+  uri: /organization/national-geophysical-data-center
+- name: DOC/NOAA/NESDIS/NGDC > National Geophysical Data Center, NESDIS, NOAA, U.S.
+    Department of Commerce
+  uri: /organization/national-geophysical-data-center
+- bureau: 019:20
+  name: DOE Electricity Delivery and Energy Reliability
+  uri: /organization/us-department-energy-office-electricity-delivery-energy-reliability
+  warning: no bureau code
+- name: Department of Commerce (DOC), National Oceanic and Atmospheric Administration
+    (NOAA), National Ocean Service (NOS), Office of Coast Survey (OCS), Coast Survey
+    Development Laboratory (CSDL)
+  warning: 'no uri : department-commerce-doc-national-oceanic-atmospheric-administration-noaa-national-ocean-service-nos-office-coast-survey-ocs-coast-survey-development-laboratory-csdl'
+- name: Department of Commerce (DOC), National Oceanic and Atmospheric Administration
+    (NOAA), Ocean and Coastal Resource Management (OCRM), National Marine Protected
+    Areas Center (MPAC)
+  uri: /organization/national-marine-protected-areas-center
+- bureau: 005:13
+  name: Economic Research Service, Department of Agriculture
+  uri: /organization/economic-research-service
+- bureau: 005:13
+  name: Economic Research Service, U.S. Department of Agriculture
+  uri: /organization/economic-research-service
+- bureau: 005:13
+  name: Economic Research Service, US Department of Agriculture
+  uri: /organization/economic-research-service
+- name: Environmental Protection Agency
+  uri: /organization/us-environmental-protection-agency
+- name: FHWA
+  uri: /organization/federal-highway-administration
+- bureau: 005:49
+  name: Farm Service Agency, Department of Agriculture
+  uri: /organization/us-department-agriculture-farm-service-agency
+- name: Federal Aviation Administration (Aeronautical Information Services, ATA-100)
+  uri: /organization/federal-aviation-administration
+- name: Federal Emergency Management Agency
+  uri: /organization/federal-emergency-management-agency
+- name: Federal Highway Adimnistration (FHWA)
+  uri: /organization/federal-highway-administration
+- bureau: 021:15
+  name: Federal Highway Administration
+  uri: /organization/federal-highway-administration
+- name: Federal Highway Administration (FHWA)
+  uri: /organization/federal-highway-administration
+- name: Federal Railroad Administration (FRA)
+  uri: /organization/federal-railroad-administration
+- bureau: 021:36
+  name: Federal Transit Administration
+  uri: /organization/federal-transit-administration
+- bureau: 005:84
+  name: Food and Nutrition Service
+  uri: /organization/food-nutrition-service
+- bureau: 005:84
+  name: Food and Nutrition Service, Department of Agriculture
+  uri: /organization/food-nutrition-service
+- bureau: 005:68
+  name: Foreign Agricultural Service, Department of Agriculture
+  uri: /organization/us-department-agriculture-foreign-agricultural-service
+- name: Georgia Tech
+  uri: /organization/georgia-institute-technology
+- name: Government of Canada, Natural Resources Canada, Canada Centre for Remote Sensing,
+    The Atlas of Canada
+  uri: /organization/natural-resources-canada
+- name: Hazardous Material Routes:U.S. Department of Transportation Volpe NTSC TIGER/Line:U.S.
+    Department of Commerce, U.S. Census Bureau, Geography Division
+  warning: 'no uri : hazardous-material-routes-us-department-transportation-volpe-ntsc-tiger-line-us-department-commerce-us-census-bureau-geography-division'
+- name: Hazards and Vulnerability Research Institute
+  uri: /organization/university-south-carolina-hazards-vulnerability-research-institute
+- bureau: 009:15
+  name: Health Resources and Services Administration
+  uri: /organization/health-resources-services-administration
+- name: Manomet Center for Conservation Sciences
+  warning: 'no uri : manomet-center-conservation-sciences'
+- name: NASA GSFC
+  uri: /organization/goddard-space-flight-center
+- name: NOAA Climate Data Record Program (CDRP)
+  uri: /organization/climate-data-record-program
+- name: NOAA Fisheries Headquarters
+  uri: /organization/national-oceanic-atmospheric-administration-national-marine-fisheries-service
+- name: NOAA Office for Coastal Management
+  uri: /organization/noaa-office-coastal-management
+- name: NOAA/Great Lakes Environmental Research Laboratory
+  uri: /organization/national-oceanic-atmospheric-administration-great-lakes-environmental-research-laboratory
+- name: NOAA/NESDIS/NODC/NCDDC-National Coastal Data Development Center
+  uri: /organization/noaa-national-coastal-data-development-center
+- name: NOAA/NMFS/OHC/HPD
+  warning: 'no uri : noaa-nmfs-ohc-hpd'
+- bureau: 005:53
+  name: NRCS
+  uri: /organization/natural-resources-conservation-service
+- bureau: 026:00
+  name: NSIDC, National Aeronautics and Space Administration, U.S. Government
+  uri: /organization/national-snow-ice-data-center-distributed-active-archive-center
+  warning: no bureau code
+- bureau: 026:00
+  name: National Aeronautics and Space Administration
+  uri: /organization/national-aeronautics-space-administration
+- bureau: 005:15
+  name: National Agricultural Statistics Service, Department of Agriculture
+  uri: /organization/national-agricultural-statistics-service
+- name: National Atlas of the United States
+  uri: /organization/usgs-national-map
+- name: National Oceanic and Atmospheric Administration (NOAA), National Ocean Service
+    (NOS), Center for Operational Oceanographic Products and Services (CO-OPS)
+  uri: /organization/noaa-center-operational-oceanographic-products-services
+- name: National Oceanic and Atmospheric Administration (NOAA), National Ocean Service
+    (NOS), Office of Coast Survey (OCS)
+  uri: /organization/noaa-office-coastal-management
+- name: National Oceanic and Atmospheric Administration (NOAA), National Ocean Service
+    (NOS), Office of Response and Restoration (ORR), Emergency Response Division (ERD)
+  uri: /organization/noaa-emergency-response-division
+- name: National Oceanic and Atmospheric Administration (NOAA), National Ocean Service
+    (NOS), Special Projects (SP)
+  uri: /organization/national-oceanic-atmospheric-administration-special-projects-office
+- name: National Oceanic and Atmospheric Administration(NOAA), National Ocean Service
+    (NOS), Office of Coast Survey (OCS),Hydrographic Surveys Division (HSD)
+  warning: 'no uri : national-oceanic-atmospheric-administration-noaa-national-ocean-service-nos-office-coast-survey-ocs-hydrographic-surveys-division-hsd'
+- name: National Oceanic and Atmospheric Administration, National Ocean Service, National
+    Centers for Coastal and Ocean Science, Center for Coastal Montioring and Assessment
+    (CCMA)
+  uri: /organization/noaa-center-coastal-monitoring-assessment
+- bureau: 019:20
+  name: National Renewable Energy Laboratory (NREL)
+  uri: /organization/national-renewable-energy-laboratory
+  warning: no bureau code
+- name: National Snow and Ice Data Center
+  uri: /organization/national-snow-ice-data-center
+- name: National Water-Quality Assessment Program, U.S. Geological Survey
+  uri: /organization/us-geological-survey-national-water-quality-assessment-program
+- bureau: 006:48
+  name: National Weather Service, Department of Commerce
+  uri: /organization/national-weather-service
+  warning: no bureau code
+- name: National Weather Service/OST
+  uri: /organization/noaa-office-science-technology-integration
+- bureau: 005:53
+  name: Natural Resources Conservation Service, Colorado State University
+  warning: 'no uri : natural-resources-conservation-service-colorado-state-university'
+- name: Northwest Climate Science Center
+  uri: /organization/northwest-csc
+- bureau: 026:00
+  name: ORNL_DAAC, National Aeronautics and Space Administration, U.S. Government
+  uri: /organization/oak-ridge-national-laboratory-distributed-active-archive-center
+  warning: no bureau code
+- bureau: 019:20
+  name: Oak Ridge National Laboratory
+  uri: /organization/oak-ridge-national-laboratory
+  warning: no bureau code
+- bureau: 019:20
+  name: Office of Energy Efficiency & Renewable Energy (EERE)
+  uri: /organization/us-department-energy-office-energy-efficiency-renewable-energy
+  warning: no bureau code
+- name: Office of the Assistant Secretary for Research and Technology/Bureau of Transportation
+    Statistics
+  uri: /organization/dot-office-assistant-secretary-research-technology
+- name: Office of the Assistant Secretary for Research and Technology/Bureau of Transportation
+    Statistics (BTS)
+  uri: /organization/bureau-transportation-statistics
+- name: Oregon State University
+  uri: /organization/oregon-state-university
+- bureau: 021:50
+  name: Pipeline and Hazardous Materials Safety Administration
+  uri: /organization/us-department-transportation-pipeline-hazardous-materials-safety-administration
+- bureau: 021:53
+  name: Research and Innovative Technology Administration
+  uri: /organization/us-department-transportation-research-innovative-technology-administration
+- name: Santa Clara U., U.S. Bureau of Reclamation, U.S. Dept. of Energy
+  warning: 'no uri : santa-clara-u-us-bureau-reclamation-us-dept-energy'
+- name: Spatial Climate Analysis Service
+  warning: 'no uri : spatial-climate-analysis-service'
+- bureau: 009:30
+  name: Substance Abuse &amp; Mental Health Services Administration
+  uri: /organization/us-department-health-human-services-substance-abuse-mental-health-services-administration
+- name: Texas Tech University
+  uri: /organization/texas-tech-university
+- name: The Wilderness Society
+  uri: /organization/wilderness-society
+- bureau: 019:20
+  name: U.S. Department of Energy (DOE)
+  uri: /organization/us-department-energy
+  warning: 'bureau code different : 019:00'
+- name: U.S. EPA Office of Air and Radiation (OAR) - Office of Air Quality Planning
+    and Standards (OAQPS)
+  uri: /organization/us-environmental-protection-agency-office-air-quality-planning-standards
+- name: U.S. EPA Office of Air and Radiation (OAR) - Office of Atmospheric Programs
+    (OAP)
+  warning: 'no uri : us-epa-office-air-radiation-oar-office-atmospheric-programs-oap'
+- name: U.S. EPA Office of Water (OW)
+  uri: /organization/us-environmental-protection-agency-office-water
+- name: U.S. EPA Office of Water (OW) - Office of Science and Technology (OST)
+  warning: 'no uri : us-epa-office-water-ow-office-science-technology-ost'
+- bureau: 019:20
+  name: U.S. Energy Information Administration
+  uri: /organization/us-energy-information-administration
+  warning: no bureau code
+- bureau: 019:20
+  name: U.S. Energy Information Administration (EIA)
+  uri: /organization/us-energy-information-administration
+  warning: no bureau code
+- name: U.S. Environmental Protection Agency, Office of Enforcement and Compliance
+    Assurance-Office of Compliance
+  uri: /organization/epa-office-enforcement-compliance-assurance
+- name: U.S. Environmental Protection Agency, Office of Sustainable Communities
+  uri: /organization/epa-office-sustainable-communities
+- name: U.S. Environmental Protection Agency,Office of Environmental Information
+  uri: /organization/epa-office-environmental-information
+- bureau: 010:18
+  name: U.S. Fish and Wildlife Service
+  uri: /organization/us-fish-wildlife-service
+- name: U.S. Forest Service, Southern Research Station
+  uri: /organization/us-forest-service-southern-research-station
+- name: U.S. Geological Survey
+  uri: /organization/us-geological-survey
+- name: U.S. Geological Survey - Alaska Science Center
+  uri: /organization/united-states-geological-survey-alaska-science-center
+- name: U.S. Geological Survey / College of Oceanic and Atmospheric Sciences, Oregon
+    State University
+  warning: 'no uri : us-geological-survey-college-oceanic-atmospheric-sciences-oregon-state-university'
+- name: U.S. Geological Survey Earth Resources Observation and Science (EROS) Center
+  uri: /organization/earth-resources-observation-science-center
+- name: U.S. Geological Survey Gap Analysis Program
+  uri: /organization/usgs-national-gap-analysis-program
+- name: U.S. Geological Survey, CLIMATE & LAND-USE
+  uri: /organization/usgs-climate-land-use-change
+- name: U.S. Geological Survey, Central Energy Resource Team
+  uri: /organization/usgs-central-energy-resources-science-center
+- name: U.S. Geological Survey, Central Energy Resources Science Center
+  uri: /organization/usgs-central-energy-resources-science-center
+- name: U.S. Geological Survey, Central Energy Resources Team
+  uri: /organization/usgs-central-energy-resources-science-center
+- name: U.S. Geological Survey, Indiana Water Science Center
+  uri: /organization/usgs-indiana-water-science-center
+- name: U.S. Geological Survey, Patuxent Wildlife Research Center
+  uri: /organization/patuxent-wildlife-research-center
+- name: 'UNH/CCOM-JHC : Center for Coastal and Ocean Mapping/Joint Hydrographic Center,
+    University of New Hampshire'
+  uri: /organization/unh-center-coastal-ocean-mapping-joint-hydrographic-center
+- name: US Army Corps of Engineers (USACE)
+  uri: /organization/us-army-corps-engineers
+- bureau: 025:06
+  name: US Bureau of the Census
+  warning: 'no uri : us-bureau-the-census'
+- bureau: 006:07
+  name: US Census Bureau, Department of Commerce
+  uri: /organization/us-census-bureau
+- bureau: 025:06
+  name: US Department of Housing and Urban Development
+  uri: /organization/us-department-housing-urban-development
+  warning: 'bureau code different : 025:00'
+- name: US Department of Transportation, Maritime Administration
+  warning: 'no uri : us-department-transportation-maritime-administration'
+- name: US Environmental Protection Agency, Research Triangle Park
+  uri: /organization/us-environmental-protection-agency
+- name: US Forest Service, Department of Agriculture
+  warning: 'no uri : us-forest-service-department-agriculture'
+- name: US Gelogical Survey
+  warning: 'no uri : us-gelogical-survey'
+- name: US Geological Survey Core Science Analytics and Synthesis Program
+  warning: 'no uri : us-geological-survey-core-science-analytics-synthesis-program'
+- name: US Geological Survey, Geosciences and Environmental Change Science Center
+  uri: /organization/us-geological-survey-geosciences-environmental-change-science-center
+- name: US Geological Survey, Maryland Water Science Center
+  uri: /organization/usgs-maryland-delaware-dc-water-science-center
+- name: US National Oceanographic Data Center
+  uri: /organization/national-oceanographic-data-center
+- bureau: 005:13
+  name: USDA Economic Research Service
+  uri: /organization/economic-research-service
+- name: USDA Forest Service, Rocky Mountain Research Station, Aldo Leopold Wilderness
+    Research Institute
+  uri: /organization/aldo-leopold-wilderness-research-institute
+- name: USDOT FRA
+  uri: /organization/federal-railroad-administration
+- name: USDOT/FRA
+  uri: /organization/federal-railroad-administration
+- name: USGS
+  uri: /organization/us-geological-survey
+- name: USGS Alaska Science Center
+  uri: /organization/united-states-geological-survey-alaska-science-center
+- name: USGS Center for Integrated Data Analytics
+  uri: /organization/us-geological-survey-center-integrated-data-analytics
+- bureau: 005:13
+  name: United States Department of Agriculture
+  uri: /organization/us-department-agriculture
+  warning: 'bureau code different : 005:00'
+- name: United States Geological Survey
+  uri: /organization/us-geological-survey
+- name: United States Geological Survey, Aquatic GAP Analysis Program
+  uri: /organization/usgs-aquatic-gap-analysis-program
+- name: University of Alaska Fairbanks
+  uri: /organization/university-alaska-fairbanks
+- name: University of Colorado
+  uri: /organization/university-colorado
+- name: University of Idaho
+  uri: /organization/university-idaho
+- name: Varies, see http://gdo-dcp.ucllnl.org/downscaled_cmip_projections/
+  warning: 'no uri : varies-see-http-gdo-dcp-ucllnl-org-downscaled-cmip-projections'
+- name: Waterborne Commerce Statistics Center
+  uri: /organization/us-army-corp-engineers-waterborne-commerce-statistics-center
+- name: Woods Hole Oceanographic Institution
+  uri: /organization/woods-hole-oceanographic-institution
+- name: World Glacier Monitoring Service
+  warning: 'no uri : world-glacier-monitoring-service'
+- bureau: 009:38
+  name: healthdatagov.prod.acquia-sites.com
+  warning: 'no uri : healthdatagov-prod-acquia-sites-com'
+
